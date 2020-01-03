@@ -1,15 +1,13 @@
 variables:
   GO_IMAGE: golang:latest
+  HUGO_VERSION: 0.62.1
 
 pages:
   image: $GO_IMAGE
   script:
-    - git clone https://github.com/gohugoio/hugo.git
-    - cd hugo && go install --tags extended && cd ..
-    - apt update && apt install -y make
+    - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+    - dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
     - make build
   artifacts:
     paths:
     - public
-  only:
-  - master
