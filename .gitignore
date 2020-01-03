@@ -53,5 +53,5 @@ node_modules/
 *.iws
 .idea/
 
-# Database files
-/db
+# Project
+public/
