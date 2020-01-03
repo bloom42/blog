@@ -7,7 +7,6 @@ pages:
   script:
     - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
     - dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
-    - git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
     - make build
   artifacts:
     paths:
