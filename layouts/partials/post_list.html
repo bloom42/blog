@@ -1,16 +1,16 @@
 <!-- post list -->
 {{ range $index, $element := $.Paginator.Pages }}
-<div class="post-preview pt-3 pb-3">
+<div class="entry-preview pt-3 pb-3">
   <a href="{{ .Permalink }}">
-    <h2 class="post-title text-center mb-2">{{ .Title }}</h2>
+    <h2 class="entry-title text-center mb-2">{{ .Title }}</h2>
   </a>
-  <p class="post-meta mb-3">
+  <p class="entry-meta mb-3">
     <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }} class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
   </p>
-  <h3 class="post-subtitle">
+  <h3 class="entry-subtitle">
     {{ .Params.subtitle }}
   </h3>
-  <div class="post-preview-content">
+  <div class="entry-preview-content">
     {{ with .Description }}
       {{ . }}
     {{ else }}

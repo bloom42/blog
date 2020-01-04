@@ -32,6 +32,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+a, a:visited {
+  color: #5522FA;
+  /* transition: color 0.25s; */
+}
+
 
 .navbar a {
   font-family: arial, sans-serif;
@@ -62,11 +67,15 @@ a:hover {
   text-decoration: none;
 }
 
-.post-meta {
+.post-meta, .entry-meta {
   margin: 0;
   text-align: center;
   color: #8a8a8a;
   font-size: 18px;
+}
+
+.entry-title:hover {
+  color: #5522FA;
 }
 
 .center, .center p {
