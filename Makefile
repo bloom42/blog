@@ -8,3 +8,7 @@ build:
 .PHONY: dev
 dev:
 	hugo server --buildDrafts
+
+.PHONY: gzip
+gzip:
+	gzip -k -9 -r -f public
