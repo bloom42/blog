@@ -1,8 +1,8 @@
 <!-- post list -->
 {{ range $index, $element := $.Paginator.Pages }}
-<div class="post-preview">
+<div class="post-preview mt-3">
     <a href="{{ .Permalink }}">
-        <h2 class="post-title text-center">
+        <h2 class="post-title text-center mb-3">
             {{ .Title }}
         </h2>
 	{{with .Params.subtitle }}
@@ -14,7 +14,7 @@
 	{{ with .Description }}
             {{ . }}
         {{ else }}
-            {{ .Summary}}
+            {{ .Summary }}
        {{ end }}
         </div>
     </a>
