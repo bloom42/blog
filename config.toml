@@ -1,4 +1,8 @@
 baseURL = "https://bloom42.gitlab.io/blog"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "ananke"
+descriotion = "My description"
+# theme = "vienna"
+
+[markup.goldmark.renderer]
+unsafe= true

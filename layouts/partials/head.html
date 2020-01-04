@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="{{ "imgs/favicon.svg" | relURL }}"/>
+
+  {{ if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  {{- else -}}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  {{- end }}
+  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+  <!-- js -->
+  <script src="{{ "js/jquery-3.4.1.slim.min.js" | relURL }}"></script>
+  <script src="{{ "js/popper.min.js" | relURL }}"></script>
+  <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
+  <script src="{{ "js/index.js" | relURL }}"></script>
+  </head>
