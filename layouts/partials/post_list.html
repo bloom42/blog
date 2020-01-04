@@ -2,7 +2,7 @@
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview">
     <a href="{{ .Permalink }}">
-        <h2 class="post-title">
+        <h2 class="post-title text-center">
             {{ .Title }}
         </h2>
 	{{with .Params.subtitle }}
@@ -10,7 +10,7 @@
             {{ . }}
         </h3>
 	{{ end }}
-        <div class="post-preview-content">
+        <div class="post-preview-content text-justify">
 	{{ with .Description }}
             {{ . }}
         {{ else }}
