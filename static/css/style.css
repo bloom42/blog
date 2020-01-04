@@ -3,9 +3,20 @@
   src: url(../fonts/National2CondensedWeb-BoldItalic.woff2);
 }
 
+@font-face {
+  font-family: 'tiempos_regular';
+  src: url(../fonts/TiemposTextWeb-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'tiempos_bold';
+  src: url(../fonts/TiemposTextWeb-Bold.woff2);
+}
+
 body {
   margin: 0;
-  font-family: 'Times New Roman', serif;
+  /* font-family: 'Times New Roman', serif; */
+  font-family: tiempos_regular;
   font-size: 20px;
   line-height: 1.5;
   color: #333;
@@ -25,7 +36,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: arial, sans-serif;
+  font-family: tiempos_bold;
+  /* font-family: arial, sans-serif; */
   /* font-weight: 800; */
   word-break: break-word;
   color: #000;
