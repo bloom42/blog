@@ -3,7 +3,6 @@ date = 2019-06-05T01:42:42+02:00
 title = "Bloom: a free and open source Google"
 tags = ["rust", "rustlang", "opensource", "google", "free software"]
 type = "post"
-
 [extra]
 lang = "en"
 +++

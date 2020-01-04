@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'national2';
+  src: url(../fonts/National2CondensedWeb-BoldItalic.woff2);
+}
+
 body {
   margin: 0;
   font-family: 'Times New Roman', serif;
@@ -11,6 +16,12 @@ body {
   body {
     font-size: 18px;
   }
+  .navbar-dark .navbar-nav .nav-item, .navbar-dark .navbar-nav .nav-link, .navbar-brand {
+    font-size: 24px;
+  }
+  .read-more-btn {
+    font-size: 22px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,11 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .navbar a {
-  font-family: arial, sans-serif;;
+  font-family: arial, sans-serif;
 }
-.navbar-dark .navbar-nav .nav-link {
-  color: yellow;
+.navbar-dark .navbar-nav .nav-item, .navbar-dark .navbar-nav .nav-link, .navbar-brand {
+  color: yellow !important;
+  font-family: national2 !important;
+  font-size: 26px;
+}
 
+.read-more-btn {
+  font-family: arial, sans-serif;
+  font-family: national2 !important;
+  font-size: 24px;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
@@ -49,4 +67,11 @@ a:hover {
   text-align: center;
   color: #8a8a8a;
   font-size: 18px;
+}
+
+.center, .center p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

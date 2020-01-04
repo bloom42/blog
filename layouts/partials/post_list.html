@@ -1,26 +1,27 @@
 <!-- post list -->
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview pt-3 pb-3">
-    <a href="{{ .Permalink }}">
-        <h2 class="post-title text-center mb-2">
-            {{ .Title }}
-        </h2>
-        <p class="post-meta mb-3">
-          <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }} class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-        </p>
-	{{with .Params.subtitle }}
-        <h3 class="post-subtitle">
-            {{ . }}
-        </h3>
-	{{ end }}
-        <div class="post-preview-content text-justify">
-	{{ with .Description }}
-            {{ . }}
-        {{ else }}
-            {{ .Summary }}
-       {{ end }}
-        </div>
-    </a>
+  <a href="{{ .Permalink }}">
+    <h2 class="post-title text-center mb-2">{{ .Title }}</h2>
+  </a>
+  <p class="post-meta mb-3">
+    <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }} class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+  </p>
+  <h3 class="post-subtitle">
+    {{ .Params.subtitle }}
+  </h3>
+  <div class="post-preview-content">
+    {{ with .Description }}
+      {{ . }}
+    {{ else }}
+      {{ .Summary }}
+    {{ end }}
+  </div>
+
+  <div class="mt-3 text-center">
+    <i><a href="{{ .Permalink }}" class="read-more-btn">KEEP READING</a></i>
+  </div>
+
     <!-- <p class="post-meta">
     Posted by {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} {{ .Date.Format "Monday, January 2, 2006" }}
     <!-- Don't show "Last Modified on" if update happened on the same day.
