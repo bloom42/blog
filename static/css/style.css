@@ -46,15 +46,16 @@ main {
   main {
     margin-top: 65px;
   }
+
+  .navbar {
+    transition: top 0.5s ease;
+  }
+
+  .navbar-hide {
+    top: -71px;
+  }
 }
 
-.navbar {
-  transition: top 0.5s ease;
-}
-
-.navbar-hide {
-  top: -71px;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: tiempos_bold;

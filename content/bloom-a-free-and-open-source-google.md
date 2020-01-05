@@ -10,7 +10,7 @@ lang = "en"
 +++
 
 
-🇫🇷 <a href="https://www.kerkour.fr/blog/bloom-un-google-libre-et-open-source" target="_blank" rel="noopener">Version française ici</a>
+🇫🇷 [Version française ici]({{< ref "bloom-un-google-libre-et-open-source.md" >}})
 
 
 *We cannot solve our problems with the same thinking we used when we created them.*
