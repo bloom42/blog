@@ -6,12 +6,11 @@
   <link rel="shortcut icon" href="{{ "imgs/favicon.svg" | relURL }}"/>
 
   {{ if .IsHome -}}
-  <title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}</title>
   {{- else -}}
-  <title>{{ .Site.Title }} - {{ .Title }}</title>
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
   {{- end }}
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-
+  <meta name="description" content="{{ .Site.Params.Description }}" />
 
   {{ with .OutputFormats.Get "rss" -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

@@ -18,6 +18,3 @@ disableHugoGeneratorInject = true
     Strong opinions and crazy ideas on design, tech and humanity. By the creators of
       <a target="_blank" href="https://www.bloom.sh" rel="noopener noreferer" style="color: yellow; text-decoration: underline;">Bloom</a>.
     """
-
-[outputs]
-  trip = [ "HTML", "RSS" ]
