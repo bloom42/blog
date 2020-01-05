@@ -19,7 +19,7 @@ to never miss one of our posts.
 ## RSS
 
 Prefer RSS? Use this URL in your favorite RSS reader: <br />
-`{{< rssurl >}}`
+[{{< rssurl >}}]({{< rssurl >}})
 
 <br />
 
