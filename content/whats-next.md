@@ -3,6 +3,7 @@ date = 2019-06-10T01:42:42+02:00
 title = "What's next?"
 tags = ["rust", "rustlang", "opensource", "free software"]
 type = "post"
+authors = ["Sylvain Kerkour"]
 
 [extra]
 lang = "en"

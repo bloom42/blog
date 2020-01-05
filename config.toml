@@ -6,3 +6,8 @@ descriotion = "My description"
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
