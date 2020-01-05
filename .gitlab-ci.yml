@@ -7,7 +7,7 @@ pages:
   only:
     - master
   script:
-    - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+    - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
     - dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
     - make build
     - make gzip
