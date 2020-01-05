@@ -1,4 +1,20 @@
 {{ define "main" -}}
-<h1>404: Page not found</h1>
-<p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ .Site.BaseURL }}">Head back home</a> to try finding it again.</p>
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="text-center
+      col-xl-8
+      col-lg-8
+      col-md-10
+      col-sm-12
+      col-xs-12">
+
+      <img src="{{ "imgs/404.svg" | relURL }}" class="mt-5" />
+
+        <h1 class="national2 mt-3 mb-3">Page not found</h1>
+
+        <h3><a href="{{ "/" | relURL }}" class="font-national2" style="text-decoration: underline;">Back to Home</a></h3>
+
+    </div>
+  </div>
+</div>
 {{- end }}
