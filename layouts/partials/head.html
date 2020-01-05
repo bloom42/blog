@@ -13,6 +13,10 @@
   <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
 
+  {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
   <!-- css -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
