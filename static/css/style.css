@@ -71,14 +71,17 @@ a, a:visited {
   /* transition: color 0.25s; */
 }
 
-
-.navbar a {
+/* .navbar a {
   font-family: arial, sans-serif;
-}
+} */
 .navbar-dark .navbar-nav .nav-item, .navbar-dark .navbar-nav .nav-link, .navbar-brand {
   color: yellow !important;
   font-family: national2 !important;
   font-size: 26px;
+}
+
+.navbar-dark a:hover {
+  text-decoration: underline;
 }
 
 .read-more-btn {
