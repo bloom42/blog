@@ -1,7 +1,7 @@
 baseURL = "https://bloom42.gitlab.io/blog"
 languageCode = "en-us"
 title = "My New Hugo Site"
-descriotion = "My description"
+descriotion = "Strong opinions and crazy ideas on design, tech and humanity. By the creators of Bloom."
 # theme = "vienna"
 
 [markup.goldmark.renderer]

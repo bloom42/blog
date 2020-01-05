@@ -20,19 +20,7 @@
     </header> -->
     {{ end }}
     <main>
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="
-            col-xl-8
-            col-lg-8
-            col-md-10
-            col-sm-12
-            col-xs-12">
-
-            {{ block "main" . }} {{ end }}
-          </div>
-        </div>
-      </div>
+      {{ block "main" . }} {{ end }}
     </main>
 
     {{ partial "footer.html" . }}
