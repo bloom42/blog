@@ -7,6 +7,8 @@ date = 2019-02-05T01:42:42+02:00
 # About
 
 We believe that entropy (which can be defined as a measurement of chaos, complexity) is inevitable.
+As product designers, developers, entrepreneurs, managers... it's our role to manage it.
+We share on this blog our ideas and experience on how we tackle complexity and keep things simple.
 
 <br />
 
