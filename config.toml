@@ -1,13 +1,20 @@
 baseURL = "https://bloom42.gitlab.io/blog"
 languageCode = "en-us"
-title = "My New Hugo Site"
-descriotion = "Strong opinions and crazy ideas on design, tech and humanity. By the creators of Bloom."
-# theme = "vienna"
+title = "Pretty Entropy"
 disableHugoGeneratorInject = true
+
+
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 
 [taxonomies]
   category = "categories"
   tag = "tags"
   author = "authors"
+
+[params]
+  description = "Strong opinions and crazy ideas on design, tech and humanity. By the creators of Bloom."
+  descriptionHtml = """
+    Strong opinions and crazy ideas on design, tech and humanity. By the creators of
+      <a target="_blank" href="https://www.bloom.sh" rel="noopener noreferer" style="color: yellow; text-decoration: underline;">Bloom</a>.
+    """

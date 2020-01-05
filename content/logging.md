@@ -29,7 +29,7 @@ As the term [log is ambigous](https://engineering.linkedin.com/distributed-syste
 
 I think logging is a critical piece of infrastructure. Chances are if you’re a software engineer, you’ll be staring at logs for half of your life, so it’s worth taking the time to discover the *"perfect"* logging solution.
 
-Here you can find my contribution to make logging great again (building great products is hard enought, we should not struggle with things like logging).
+Here you can find my contribution to make logging great again (building great products is hard enough, we should not struggle with things like logging).
 
 
 ## Structured logging
