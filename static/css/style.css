@@ -119,6 +119,10 @@ a:hover {
   text-decoration: none;
 }
 
+.bloom-promo p a {
+  text-decoration: underline;
+}
+
 .post-meta, .entry-meta {
   margin: 0;
   text-align: center;
