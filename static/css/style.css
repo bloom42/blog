@@ -107,9 +107,12 @@ a, a:visited {
 } */
 
 img, video {
-  border: 1px solid #dedede;
   max-width: 100%;
   height: auto;
+}
+
+.post-content img, .post-content video {
+  border: 1px solid #dedede;
 }
 
 a:hover {
