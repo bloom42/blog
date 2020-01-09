@@ -13,9 +13,9 @@ We share on this blog our ideas and experience on how we tackle entropy and keep
 Equilibrium is death but too much entropy (chaos) is fatal.
 In this blog we explore how complexity and chaos infiltrate systems, organizations and organisms and lead to a slow and painful death.
 
-Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example.
+<!-- Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example. Anyway -->
 
-Anyway, entropy is an important part of our lives and if you don't control it, it will control you.
+Entropy is an important part of our lives and if you don't control it, it will control you.
 
 <br />
 
