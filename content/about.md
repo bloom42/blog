@@ -22,7 +22,7 @@ Entropy is an important part of our lives and if you don't control it, it will c
 ## Authors
 
 From the creators (and friends) of [Bloom](https://bloom.sh). Their mission is to empower
-people with open technologies.
+people with open technologies ✌️
 
 <br />
 
