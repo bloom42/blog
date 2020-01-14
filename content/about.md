@@ -19,6 +19,14 @@ Entropy is an important part of our lives and if you don't control it, it will c
 
 <br />
 
+## Authors
+
+
+The authors are the creators (and friends) of [Bloom](https://bloom.sh). Their mission is to empower
+people with open technologies.
+
+<br />
+
 ## Contact
 
 You can contact the authors using one of the following way:
