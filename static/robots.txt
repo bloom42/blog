@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: http://fatalentropy.com/sitemap.xml
