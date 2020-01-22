@@ -4,6 +4,7 @@ title = "Your life in a carry-on backpack"
 tags = ["nomad", "minimalism"]
 type = "post"
 authors = ["Sylvain Kerkour"]
+draft = true
 
 [extra]
 lang = "en"
