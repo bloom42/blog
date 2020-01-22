@@ -11,8 +11,9 @@ date = 2019-02-05T01:42:42+02:00
 ## Twitter
 
 Follow
-<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener noreferer">@42bloom on Twitter</a>
-to never miss one of our posts.
+<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener noreferer">@42bloom</a> and
+<a href="https://twitter.com/@z0mbie42" target="_blank" rel="noopener noreferer">@z0mbie42</a>
+on Twitter to never miss one of our posts.
 
 <br />
 
