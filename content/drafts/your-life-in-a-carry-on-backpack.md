@@ -103,6 +103,7 @@ The black jean is used with a black turtleneck when formal dressing is *required
 
 | Item | Qty. |
 | ---- | ---- |
+| toiletry case | 1 |
 | nail clipper | 1 |
 | tweezers | 1 |
 | toothbrush | 2 |
