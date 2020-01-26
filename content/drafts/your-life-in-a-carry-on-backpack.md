@@ -16,6 +16,11 @@ titres alternatifs:
 * My (entire/whole) life in a carry-on backpack
 * Living with only one carry-on bag
 
+
+Resources:
+* https://lifebefore30.com/how-ive-managed-to-fit-my-life-into-2-suitcases-for-4-years-a-list-of-everything-i-travel-with-for-the-curious/
+* http://juliasomething.com/pack-life-suitcase/
+* http://www.carriespeaking.com/blog/your-life-in-a-carry-on-luggage
 """
 +++
 
@@ -25,9 +30,10 @@ Today I've managed to reduce the list of things I use and own to fit in a single
 
 <!-- TODO: photo du sac plein -->
 
-It was a looong and sloow process started 6 months ago when I started to realize I had a lot of stuff
-(clothes, gadgets, books...) That I owned, didn't use and vampirized a lot of my time.
-Let's explore the reasons why someone would want to reduce it's possessions to the bare minimum.
+It was a looong and sloow process started 6 months ago when I started to realize that I didn't use a lot of stuff
+(clothes, gadgets, books...) I owned, and it vampirized a lot of my time (when cleaning my room, washing my clothes, choosign my outfit of the day...).
+
+Without waiting any further, let's explore the reasons why someone would want to reduce it's possessions to the bare minimum.
 
 ## Benefits
 
