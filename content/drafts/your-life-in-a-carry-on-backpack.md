@@ -70,6 +70,7 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 
 <!-- TODO: photos des items -->
 
+I use the small, (foldable to fit in a pocket) 20L backpack for groceries or hiking.
 
 ## Clothing
 
@@ -93,7 +94,8 @@ I don't know if it's because I'm overly enthusiast, but I had really hard time t
 <!-- TODO: photos des items -->
 
 
-For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears: it allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
+For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears, I kow.
+It allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
 
 The black jean is used with a black turtleneck when formal dressing is *required*.
 
@@ -104,7 +106,6 @@ The black jean is used with a black turtleneck when formal dressing is *required
 | nail clipper | 1 |
 | tweezers | 1 |
 | toothbrush | 1 |
-| sleep eye mask | 1 |
 | ear plugs | 3 |
 
 <!-- immodium -->
@@ -143,4 +144,5 @@ They key here is to have only USB-C devies/cables/charger.
 | copy of ID card | 1 |
 | debit card | 2 |
 
-The copies of passport, ID card, 1 debit card and the emergency brick phone are kept in a small waterproof pocket.
+The copies of passport, ID card, 1 debit card and the emergency brick phone are kept in a small waterproof pocket, even
+if I fall in a river with turtle shell, I would keep my important stuff dry.
