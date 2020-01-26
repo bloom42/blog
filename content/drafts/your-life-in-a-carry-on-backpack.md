@@ -1,7 +1,7 @@
 +++
 date = 2020-01-01T01:42:42+02:00
 title = "Your life in a carry-on backpack"
-tags = ["nomad", "minimalism"]
+tags = ["digital nomad", "minimalism"]
 type = "post"
 authors = ["Sylvain Kerkour"]
 draft = true
@@ -13,7 +13,7 @@ lang = "en"
 
 comment = """
 titres alternatifs:
-* My (entire/whole) life in a carry-on backpack
+* My entire life in a carry-on backpack
 * Living with only one carry-on bag
 
 
@@ -31,16 +31,16 @@ Today I've managed to reduce the list of things I use and own to fit in a single
 <!-- TODO: photo du sac plein -->
 
 It was a looong and sloow process started 6 months ago when I started to realize that I didn't use a lot of stuff
-(clothes, gadgets, books...) I owned, and it vampirized a lot of my time (when cleaning my room, washing my clothes, choosign my outfit of the day...).
+(clothes, gadgets, books...) I owned, and it vampirized a lot of my time and energy (when cleaning my room, washing my clothes, choosign my outfit of the day...).
 
-Without waiting any further, let's explore the reasons why someone would want to reduce it's possessions to the bare minimum.
+Without waiting any further let's explore the reasons why someone would want to reduce it's possessions to the bare minimum.
 
 ## Benefits
 
 I can't list all the benefites since there is too much, but here is a few which come to my mind:
 * don't have to pay for checked luggage
 * reduced cognitive load to choose my daily outfit
-* ability to pack and relocate to anywhere in the world in less than 20 minutes
+* ability to pack and relocate to anywhere in the world in less than 15 minutes
 * all my stuff is high quality. If something is damaged, it's fixed or replaced
 * the places where I live are always in order and easy to clean
 * an unparalleled ability to travel and see beautiful places
@@ -52,10 +52,9 @@ I can't list all the benefites since there is too much, but here is a few which 
 
 ## Drawbacks
 
-I don't know if it's because I'm overly enthusiast, but I had really hard time to find those drawbacks:
-* I love to do martial arts and combat sport. I had to leave my stuff at my parents' home and usually need to rent/borrow stuff when abroad
+I don't know if it's because I'm overly enthusiast, but I have really hard time to find drawbacks:
+* I love to do martial arts and combat sport. I had to leave my stuff at my parents' home and usually need to buy/rent stuff when abroad
 * your friends will see you everyday with the same clothes and may behave strangely
-* you can't travel from a hot country to a very cold one without buying a warm jacket
 
 
 ## Bag / Accessories
@@ -90,6 +89,7 @@ I use the small, (foldable to fit in a pocket) 20L backpack for groceries or hik
 | Zara | black jean | 1 |
 | The North Face | light gloves | 1 |
 | Uniqlo | BlockTech parka | 1 |
+| - | Light down jacket | 1 |
 
 <!-- TODO: photos des items -->
 
