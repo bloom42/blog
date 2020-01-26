@@ -24,7 +24,7 @@ Resources:
 """
 +++
 
-*The things you own end up owning you.*
+*The things you own end up owning you.* Chuck Palahniuk
 
 Today I've managed to reduce the list of things I use and own to fit in a single carry-on backpack.
 
