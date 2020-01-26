@@ -69,14 +69,14 @@ I don't know if it's because I'm overly enthusiast, but I have really hard time 
 
 <!-- TODO: photos des items -->
 
-I use the small, (foldable to fit in a pocket) 20L backpack for groceries or hiking.
+I use the small (can fit in a pocket once folded) 20L backpack for groceries or hiking.
 
 ## Clothing
 
 | Brand | Item | Qty. |
 | ----- | ---- | ---- |
-| Uniqlo | Airsim boxers | 10 |
-| Celio | socks | 10 |
+| Uniqlo | Airsim boxers | 9 |
+| Uniqlo | socks | 9 |
 | Uniqlo | HeatTech legging | 1 |
 | Uniqlo | Airsim tee shirt | 4 |
 | Uniqlo | HeatTech tee shirt | 2 |
@@ -105,7 +105,7 @@ The black jean is used with a black turtleneck when formal dressing is *required
 | ---- | ---- |
 | nail clipper | 1 |
 | tweezers | 1 |
-| toothbrush | 1 |
+| toothbrush | 2 |
 | ear plugs | 3 |
 
 <!-- immodium -->
