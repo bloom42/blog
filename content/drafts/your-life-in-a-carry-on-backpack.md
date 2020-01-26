@@ -6,21 +6,32 @@ type = "post"
 authors = ["Sylvain Kerkour"]
 draft = true
 
+noComment = true
+
 [extra]
 lang = "en"
+
+comment = """
+titres alternatifs:
+* My (entire/whole) life in a carry-on backpack
+* Living with only one carry-on bag
+
+"""
 +++
 
 *The things you own end up owning you.*
 
-Today I've managed to reduce the list to fit in only one bag.
+Today I've managed to reduce the list of things I use and own to fit in a single carry-on backpack.
 
 <!-- TODO: photo du sac plein -->
 
-There is a LOOOOT of benefits but also some drawbacks that may not fit everyone's routine.
+It was a looong and sloow process started 6 months ago when I started to realize I had a lot of stuff
+(clothes, gadgets, books...) That I owned, didn't use and vampirized a lot of my time.
+Let's explore the reasons why someone would want to reduce it's possessions to the bare minimum.
 
 ## Benefits
 
-I can't list them all but here is a few which come to my mind:
+I can't list all the benefites since there is too much, but here is a few which come to my mind:
 * don't have to pay for checked luggage
 * reduced cognitive load to choose my daily outfit
 * ability to pack and relocate to anywhere in the world in less than 20 minutes

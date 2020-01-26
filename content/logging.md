@@ -100,7 +100,7 @@ sublogger.With({key_one: "value1", key_two: "value2"}).Info("something else happ
 
 Events (a.k.a *entrie* or *records*) are each individual line of log.
 
-Usualy they all contain the common fields **message**, **level** and **timestamp**, but it's not mandatory.
+Usually they all contain the common fields **message**, **level** and **timestamp**, but it's not mandatory.
 
 The difference between an event in your logs and an event tracked by an analytics service should be: What meaning will be extracted from this event or aggregations of this type of events ?
 
