@@ -1,6 +1,6 @@
 +++
 date = 2020-01-01T01:42:42+02:00
-title = "Your life in a carry-on backpack"
+title = "My entire life in a carry-on backpack"
 tags = ["digital nomad", "minimalism"]
 type = "post"
 authors = ["Sylvain Kerkour"]
@@ -13,7 +13,7 @@ lang = "en"
 
 comment = """
 titres alternatifs:
-* My entire life in a carry-on backpack
+* Your life in a carry-on backpack
 * Living with only one carry-on bag
 
 
