@@ -11,6 +11,10 @@ lang = "en"
 comments = """
 Plan:
 
+# rappel Legacy shutdown
+
+parler du script de backup
+
 # what is new
 
 ## Natives applications
