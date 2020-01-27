@@ -1,6 +1,6 @@
 +++
 date = 2020-01-05T10:00:00+01:00
-title = "January update: Native applications are out"
+title = "February update: Native applications are here 🥳"
 tags = ["go", "flutter", "bloom"]
 type = "post"
 authors = ["Sylvain Kerkour"]
