@@ -9,7 +9,20 @@ draft = true
 [extra]
 lang = "en"
 comments = """
+Plan:
 
+# what is new
 
+## Natives applications
+
+## Encryption
+
+## Paying plans
+
+# what is coming
+
+## Bug fixes
+
+## More applications
 """
 +++
