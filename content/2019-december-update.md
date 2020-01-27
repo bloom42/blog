@@ -1,6 +1,6 @@
 +++
 date = 2019-12-05T10:00:00+01:00
-title = "December update: Native applications are coming"
+title = "Bloom December update: Native applications are coming"
 tags = ["rust", "flutter", "bloom"]
 type = "post"
 author = "Sylvain Kerkour"
@@ -11,7 +11,7 @@ lang = "en"
 +++
 
 
-It's been exactly 6 months since <a href="/blog/bloom-a-free-and-open-source-google" target="_blank" rel="noopener">Bloom launched</a>.
+It's been exactly 6 months since <a href="/bloom-a-free-and-open-source-google" target="_blank" rel="noopener">Bloom launched</a>.
 6 incredible months with a lot of sweat and some sleepless nights.
 
 But something even more incredible is coming during the next month: The launch of Bloom's native applications,
