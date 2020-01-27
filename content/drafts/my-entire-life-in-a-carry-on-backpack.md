@@ -6,8 +6,6 @@ type = "post"
 authors = ["Sylvain Kerkour"]
 draft = true
 
-noComment = true
-
 [extra]
 lang = "en"
 
