@@ -41,6 +41,8 @@ dire qu'on s'attend a ce qu'il y ait qques bugs
 
 ## More applications
 
+parler de l'idee que + d'applications vont voir le jour, à suivre donc
+
 # Summary
 """
 +++
