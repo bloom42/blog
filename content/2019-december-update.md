@@ -50,7 +50,7 @@ The first step is to remove the cloud dependency. It means that Bloom should no 
 installed application that can work without internet.
 It means that Bloom will be usable even if you go far away from internet for 3 months.
 
-It also means that **the web application (<a href="https://legacy.bloom.sh" target="_blank" rel="noopener">https://legacy.bloom.sh) is deprecated and all data will be deleted on February 29, 2020**.
+It also means that **the web application (<a href="https://legacy.bloom.sh" target="_blank" rel="noopener">https://legacy.bloom.sh) is deprecated and all data will be deleted on February 29, 2020**. We provide a program to automatically backup data from *https://legacy.bloom.sh*: [https://gitlab.com/bloom42/bloom_legacy_export](https://gitlab.com/bloom42/bloom_legacy_export).
 
 ### Cryptography
 
@@ -86,7 +86,7 @@ the *groups* feature, where you will be able to share a drive space, notes, task
 
 ## Summary
 
-* **The web application (<a href="https://legacy.bloom.sh" target="_blank" rel="noopener">https://legacy.bloom.sh) is deprecated and all data will be deleted on February 29, 2020**.
+* **The web application (<a href="https://legacy.bloom.sh" target="_blank" rel="noopener">https://legacy.bloom.sh) is deprecated and all data will be deleted on February 29, 2020**. We provide a program to automatically backup data from *https://legacy.bloom.sh*: [https://gitlab.com/bloom42/bloom_legacy_export](https://gitlab.com/bloom42/bloom_legacy_export).
 * Native applications are coming in January, featuring end to end encryption and offline support among other improvements
 * **You will need to create a new account on the native application**
 * New Mastodon account: <a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener">@42bloom@mastodon.social</a>

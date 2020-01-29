@@ -1,6 +1,6 @@
 +++
 date = 2020-01-05T10:00:00+01:00
-title = "So, You no longer trust tech monopolies? Wee too and that's why we built Bloom"
+title = "So, You no longer trust tech monopolies? Me neither and that's why I built Bloom"
 tags = ["go", "flutter", "bloom"]
 type = "post"
 authors = ["Sylvain Kerkour"]
@@ -22,6 +22,8 @@ parler du script de backup
 ## Encryption
 
 ## Paying plans
+
+## Sustainability
 
 # what is coming
 
