@@ -41,7 +41,7 @@ dire qu'on s'attend a ce qu'il y ait qques bugs
 
 ## More applications
 
-parler de l'idee que + d'applications vont voir le jour, à suivre donc
+parler de l'idee que + d'applications vont voir le jour, please upvote on GitLab for your favorite feature
 
 # Summary
 """
