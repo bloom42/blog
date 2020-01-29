@@ -17,17 +17,27 @@ parler du script de backup
 
 # what is new
 
-## Natives applications
+mainteant, passons aux choses stylées
+
+## Native applications
+
+expliquer les avantages par rapport a l'appli web
 
 ## Encryption
 
-## Paying plans
+reparler de la CIA triad
+
 
 ## Sustainability
+
+parler des couts trop importants jusqu'a present
+parler des plans payants
 
 # what is coming
 
 ## Bug fixes
+
+dire qu'on s'attend a ce qu'il y ait qques bugs
 
 ## More applications
 
