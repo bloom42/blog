@@ -1,6 +1,6 @@
 +++
 date = 2020-01-05T10:00:00+01:00
-title = "So, You no longer trust tech monopolies? Me neither and that's why I built Bloom"
+title = "You no longer trust tech monopolies? Me neither, so I built Bloom"
 tags = ["go", "flutter", "bloom"]
 type = "post"
 authors = ["Sylvain Kerkour"]
@@ -10,6 +10,17 @@ draft = true
 lang = "en"
 comments = """
 Plan:
+
+TLD; DR
+
+Ce qu'est Bloom, et pq je l'ai construit
+
+Content (index)
+
+raconter mon histoire avec Bloom
+Nous y sommes, Cela fais 6 mois que j'attendais ce moment...
+
+rappel un peu de Bloom, les 6 derniers mois, HN, ProductHunt...
 
 # rappel Legacy shutdown
 
