@@ -44,6 +44,8 @@ reparler de la CIA triad
 parler des couts trop importants jusqu'a present
 parler des plans payants
 
+Mais aussi open source ne veut pas dire que je vais zccepter n'importe quelle feature / merge request, j'ai une visiion pour le projet et une roadmap pour y arriver, il va falloir etre tres convaincant pour ajouter des choses sur cette roadm1p
+
 # what is coming
 
 ## Bug fixes
