@@ -51,5 +51,5 @@ The source code of this website is available on GitLab:
 
 
 <script type="text/javascript">
-  window.$crisp=[];window.CRISP_WEBSITE_ID="5b2d6a0d-a14a-4b3b-996b-8429198f8562";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+  window.$crisp=[];window.CRISP_WEBSITE_ID="65fca4e8-35c6-4ce8-b845-7f63e72d1004";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
 </script>
