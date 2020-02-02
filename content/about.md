@@ -62,3 +62,4 @@ The source code of this website is available on GitLab:
       return String.fromCharCode(k + ((c == 0) ? 64 : 96));
     }).join('');
   }
+</script>
