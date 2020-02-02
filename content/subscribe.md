@@ -28,9 +28,3 @@ Prefer RSS? Use this URL in your favorite RSS reader: <br />
 
 <a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener noreferer">
 https://mastodon.social/@42bloom</a>
-
-
-
-<script type="text/javascript">
-  window.$crisp=[];$crisp.push(["safe", true]);window.CRISP_WEBSITE_ID="65fca4e8-35c6-4ce8-b845-7f63e72d1004";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
-</script>
