@@ -37,14 +37,14 @@ You can contact the authors using one of the following way:
 ## License
 
 All the content on this website is licensed under the
-<a rel="noopener noreferer" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" >CC BY-SA 4.0 License</a>.
+<a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" >CC BY-SA 4.0 License</a>.
 
 <br />
 
 ## Source code
 
 The source code of this website is available on GitLab:
-<a href="{{< giturl >}}" target="_blank" rel="noopener noreferer">{{< giturl >}}</a>
+<a href="{{< giturl >}}" target="_blank" rel="noopener">{{< giturl >}}</a>
 
 
 <script type="text/javascript">
