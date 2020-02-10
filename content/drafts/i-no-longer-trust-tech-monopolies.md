@@ -17,6 +17,12 @@ Ce qu'est Bloom, et pq je l'ai construit
 
 Content (index)
 
+
+Why?
+How?
+What?
+
+
 raconter mon histoire avec Bloom
 Nous y sommes, Cela fais 6 mois que j'attendais ce moment...
 
