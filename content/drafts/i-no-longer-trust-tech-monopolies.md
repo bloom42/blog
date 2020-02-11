@@ -18,9 +18,9 @@ Ce qu'est Bloom, et pq je l'ai construit
 Content (index)
 
 
-Why?
-How?
-What?
+Why? -> Ce qu'est Bloom, et pq je l'ai construit
+How? -> court rappel
+What? -> description des apps avec screenshots + what is coming
 
 
 raconter mon histoire avec Bloom

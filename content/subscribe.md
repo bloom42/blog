@@ -18,9 +18,7 @@ Love RSS? Use this URL in your favorite RSS reader: <br />
 ## Twitter
 
 Follow
-<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener">@42bloom</a> and
-<a href="https://twitter.com/@z0mbie42" target="_blank" rel="noopener">@z0mbie42</a>
-on Twitter to never miss one of our posts.
+<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener">@42bloom</a> on Twitter to never miss one of our posts.
 
 <br />
 
