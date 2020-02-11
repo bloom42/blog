@@ -24,4 +24,4 @@ Follow
 
 ## Mastodon
 
-<a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener">@42bloom@mastodon.social</a>
+<a href="https://mastodon.social/@42bloom" target="_blank" rel="me noopener">@42bloom@mastodon.social</a>
