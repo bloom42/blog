@@ -13,9 +13,9 @@ disableHugoGeneratorInject = true
   author = "authors"
 
 [params]
-  description = "Strong opinions and crazy ideas on tech, design and entrepreneurship. By the creators of Bloom."
+  description = "Strong opinions and crazy ideas on design, open source tech and entrepreneurship. By the creators of Bloom."
   descriptionHtml = """
-    Strong opinions and crazy ideas on tech, design and entrepreneurship. By the creators of
+    Strong opinions and crazy ideas on design, open source tech and entrepreneurship. By the creators of
       <a target="_blank" href="https://www.bloom.sh" rel="noopener" style="color: yellow; text-decoration: underline;">Bloom</a>.
     """
   git = "https://gitlab.com/bloom42/blog"
