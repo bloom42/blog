@@ -63,5 +63,14 @@ dire qu'on s'attend a ce qu'il y ait qques bugs
 parler de l'idee que + d'applications vont voir le jour, please upvote on GitLab for your favorite feature
 
 # Summary
+
+
+
+
+
+liens par importance:
+site -> download
+gitlab
+twitter
 """
 +++
