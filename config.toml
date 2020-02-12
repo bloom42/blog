@@ -19,3 +19,4 @@ disableHugoGeneratorInject = true
       <a target="_blank" href="https://www.bloom.sh" rel="noopener" style="color: yellow; text-decoration: underline;">Bloom</a>.
     """
   git = "https://gitlab.com/bloom42/blog"
+  obfuscatedEmail = '<n uers="znvygb:uryyb@oybbz.fu">uryyb@oybbz.fu</n>'

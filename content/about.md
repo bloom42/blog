@@ -29,7 +29,7 @@ people with open technologies ✌️
 ## Contact
 
 You can contact the authors using one of the following way:
-* Using email: {{< email >}}
+* Using email: <span class="obfuscated-email">Javascript is required to access email address</span>
 * By saying <i>Hi</i> on Twitter: <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a>
 
 <br />

@@ -10,6 +10,7 @@
       }
     }
     _redirect('fatalentropy.com');
+    window.obfuscatedEmail = {{ .Site.Params.ObfuscatedEmail | safeHTML }};
   </script>
   <body>
     {{ partial "nav.html" . }}

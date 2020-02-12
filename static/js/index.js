@@ -1,4 +1,3 @@
-// document ready
 function rot13(s) {
     return (s ? s : this).split('').map(function(_){
       if (!_.match(/[A-Za-z]/)) return _;
@@ -7,6 +6,8 @@ function rot13(s) {
       return String.fromCharCode(k + ((c == 0) ? 64 : 96));
     }).join('');
 }
+
+// document ready
 (function ($) {
 
   var previousScroll = 20;
@@ -28,7 +29,7 @@ function rot13(s) {
     var emails = document.getElementsByClassName("obfuscated-email");
     if (emails) {
       for (var i = 0; i < emails.length; i += 1) {
-        emails[i].innerHTML = rot13(`<n uers="znvygb:uryyb@oybbz.fu">uryyb@oybbz.fu</n>`);
+        emails[i].innerHTML = rot13(window.obfuscatedEmail);
       }
     }
 
