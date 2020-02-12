@@ -29,7 +29,7 @@ people with open technologies ✌️
 ## Contact
 
 You can contact the authors using one of the following way:
-* Using email: <span id="obfuscated-email">Javascript is required to access email address</span>
+* Using email: {{< email >}}
 * By saying <i>Hi</i> on Twitter: <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a>
 
 <br />
@@ -45,21 +45,3 @@ All the content on this website is licensed under the
 
 The source code of this website is available on GitLab:
 <a href="{{< giturl >}}" target="_blank" rel="noopener">{{< giturl >}}</a>
-
-
-<script type="text/javascript">
-  window.addEventListener("load", function(){
-    var email = document.getElementById("obfuscated-email");
-    if (email) {
-        email.innerHTML = rot13('<n uers="znvygb:uryyb@oybbz.fu">uryyb@oybbz.fu</n>');
-    }
-  });
-  function rot13(s) {
-    return (s ? s : this).split('').map(function(_){
-      if (!_.match(/[A-Za-z]/)) return _;
-      c = Math.floor(_.charCodeAt(0) / 97);
-      k = (_.toLowerCase().charCodeAt(0) - 83) % 26 || 26;
-      return String.fromCharCode(k + ((c == 0) ? 64 : 96));
-    }).join('');
-  }
-</script>
