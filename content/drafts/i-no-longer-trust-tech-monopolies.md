@@ -1,6 +1,6 @@
 +++
 date = 2020-01-05T10:00:00+01:00
-title = "You no longer trust tech monopolies? Me neither, so I built Bloom"
+title = "You no longer trust tech monopolies with your data? Me neither, so I built Bloom"
 tags = ["go", "flutter", "bloom"]
 type = "post"
 authors = ["Sylvain Kerkour"]
