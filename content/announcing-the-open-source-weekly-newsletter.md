@@ -45,6 +45,8 @@ Sylvain
 ---------------------------
 
 TODO:
+* setup email
+* faire fonctionner formulaire
 * ajouter sur google search
 * post on HN
 * post on Reddit
