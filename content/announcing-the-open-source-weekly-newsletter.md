@@ -1,10 +1,9 @@
 +++
-date = 2020-02-13T12:42:42+01:00
+date = 2020-01-26T01:42:42+01:00
 title = "Announcing the Open Source Weekly newsletter"
 tags = ["open source", "libre", "newsletter", "email", "software"]
 type = "post"
 authors = ["Sylvain Kerkour"]
-draft = true
 
 [extra]
 lang = "en"
@@ -35,6 +34,8 @@ So I created the Open Source Weekly newsletter, where you will find the best pro
 
 <div class="text-center mb-5 mt-5">
   <a href="https://opensourceweekly.org" target="_blank" rel="noopener">https://OpenSourceWeekly.org</a>
+  <small class="form-text text-muted">We hate spam even more than you do.
+        We'll never share your email and you can unsubscribe at anytime.</small>
 </div>
 
 Whether you want to make your first contribution, discover new interesting projects or people, this newsletter is for you.
