@@ -45,6 +45,7 @@ Sylvain
 ---------------------------
 
 TODO:
+* ajouter sur google search
 * post on HN
 * post on Reddit
 * release blog post
