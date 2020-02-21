@@ -71,8 +71,8 @@ So I created the Open Source Weekly newsletter, where you will find the best pro
 
 <div class="text-center mb-5 mt-5">
   <a href="https://opensourceweekly.org" target="_blank" rel="noopener">https://OpenSourceWeekly.org</a>
-  <small class="form-text text-muted">We hate spam even more than you do.
-        We'll never share your email and you can unsubscribe at anytime.</small>
+  <!-- <small class="form-text text-muted">We hate spam even more than you do.
+        We'll never share your email and you can unsubscribe at anytime.</small> -->
 </div>
 
 Whether you want to make your first contribution, discover new interesting projects or people, this newsletter is for you.
