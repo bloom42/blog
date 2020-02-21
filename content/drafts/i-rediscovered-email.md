@@ -10,5 +10,5 @@ lang = "en"
 comments = """
 Email as a content curator (parler de the inevitable)
 
-""""
+"""
 +++

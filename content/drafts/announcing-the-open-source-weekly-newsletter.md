@@ -1,0 +1,32 @@
++++
+date = 2020-02-13T12:42:42+01:00
+title = "Announcing the Open Source Weekly newsletter"
+tags = ["open source", "libre", "newsletter", "email", "software"]
+type = "post"
+authors = ["Sylvain Kerkour"]
+draft = true
+
+[extra]
+lang = "en"
++++
+
+
+While developing <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
+I realised how much I love open source. So I decided to share this passion to the world and allow others to learn more about it. Whether it be in software, in the hardware world, in education, in sciene or in agriculture, open source have proved its superiority.
+
+However it's very difficult to find interesting and quality content in this ocean. Just GitHub had
+<a href="https://github.blog/2018-11-08-100m-repos/" target="_blank" rel="noopener">100M repositories in 2018</a>.
+
+
+So I created the open source weekly newsletter, where you will find the best projects, people and articles on open source, curated by hand.
+
+<div class="text-center mb-5 mt-5">
+  <a href="https://opensourceweekly.org" target="_blank" rel="noopener">https://OpenSourceWeekly.org</a>
+</div>
+
+Whether you want to make your first contribution, discover new interesting projects or people, this newsletter is for you.
+
+I think we are just at the beginning of the open source revolution and I want to contribute to spread its greatness.
+
+
+First issue on February, 28th 2020.
