@@ -8,11 +8,24 @@ draft = true
 
 [extra]
 lang = "en"
+comments = """
+I'm pleased to announce OpenSourceWeekly.org 🎉
+
+A weekly newsletter of the best projects, people and articles on open source, curated by hand
+
+Why? How? What? 👉 https://fatalentropy.com/announcing-the-open-source-weekly-newsletter
+
+💬 Discuss on Hacker News:
+🗣️ Discuss on Reddit:
+
+
+While developing Bloom realized how much I love open source. So I decided to spread its greatness to the world. I think it's just the beginning of a revolution!
+"""
 +++
 
 
 While developing <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
-I realised how much I love open source. So I decided to share this passion to the world. Whether it be in software, in hardware, in education, in sciene or in agriculture, open source have proved its superiority.
+I realized how much I love open source. So I decided to share this passion to the world. Whether it be in software, in hardware, in education, in sciene or in agriculture, open source have proved its superiority.
 
 However it's very difficult to find interesting and quality content in this ocean. Just GitHub had over
 <a href="https://github.blog/2018-11-08-100m-repos/" target="_blank" rel="noopener">100M repositories in 2018</a>.
