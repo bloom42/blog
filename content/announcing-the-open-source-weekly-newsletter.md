@@ -45,6 +45,7 @@ Sylvain
 ---------------------------
 
 TODO:
+* mettre a jour site perso et profile twitter
 * setup email
 * faire fonctionner formulaire
 * ajouter sur google search
