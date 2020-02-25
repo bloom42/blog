@@ -45,9 +45,8 @@ Sylvain
 ---------------------------
 
 TODO:
+* bloquer les inscriptions
 * mettre a jour site perso et profile twitter
-* setup email
-* faire fonctionner formulaire
 * ajouter sur google search
 * post on HN
 * post on Reddit
