@@ -34,7 +34,7 @@ However it's very difficult to find interesting and quality content in this ocea
 
 So I created the Open Source Weekly letter, where you will find the best projects, people and articles on open source, curated by hand.
 
-Whether you want to make your first contribution, discover new interesting projects or people, this newsletter is for you.
+Whether you want to make your first contribution, discover new interesting projects or people, I will do my best to satisfy you.
 
 I think we are just at the beginning of the open source revolution and I want to contribute to spread its greatness.
 
@@ -45,12 +45,13 @@ Sylvain
 ---------------------------
 
 TODO:
-* release blog post
 * post on HN
 * post on Reddit
+* update blog post avec liens reddit et HN
 * tweet Bloom
 * toots
-* envoyer email
+
+* envoyer email Bloom
 
 * some hours later: tweet Sylvain
 """
@@ -72,7 +73,7 @@ So I created the Open Source Weekly letter, where you will find the best project
         We'll never share your email and you can unsubscribe at anytime.</small> -->
 </div>
 
-Whether you want to make your first contribution, discover new interesting projects or people, this newsletter is for you.
+Whether you want to make your first contribution, discover new interesting projects or people, I will do my best to satisfy you.
 
 I think we are just at the beginning of the open source revolution and I want to contribute to spread its greatness.
 
