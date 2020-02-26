@@ -11,7 +11,7 @@ lang = "en"
 comments = """
 I'm pleased to announce OpenSourceWeekly.org 🎉
 
-A weekly newsletter of the best projects, people and articles on open source, curated by hand
+A weekly letter of the best projects, people and articles on open source, curated by hand
 
 Why? How? What? 👉 https://fatalentropy.com/announcing-opensourceweekly-org/
 
