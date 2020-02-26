@@ -4,7 +4,6 @@ title = "Announcing OpenSourceWeekly.org"
 tags = ["open source", "libre", "newsletter", "email", "software"]
 type = "post"
 authors = ["Sylvain Kerkour"]
-draft = true
 
 [extra]
 lang = "en"
@@ -19,7 +18,7 @@ Why? How? What? 👉 https://fatalentropy.com/announcing-opensourceweekly-org/
 🗣️ Discuss on Reddit:
 
 
-While developing Bloom realized how much I love open source. So I decided to spread its greatness to the world. I think it's just the beginning of a revolution!
+While developing Bloom, I realized how much I love open source. So I decided to spread its greatness to the world. I think it's just the beginning of a revolution!
 
 
 ---------------------------
