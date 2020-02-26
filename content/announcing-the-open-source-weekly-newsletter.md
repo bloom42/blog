@@ -1,9 +1,10 @@
 +++
-date = 2020-01-26T01:42:42+01:00
-title = "Announcing the Open Source Weekly newsletter"
+date = 2020-02-26T01:42:42+01:00
+title = "Announcing OpenSourceWeekly.org"
 tags = ["open source", "libre", "newsletter", "email", "software"]
 type = "post"
 authors = ["Sylvain Kerkour"]
+draft = true
 
 [extra]
 lang = "en"
