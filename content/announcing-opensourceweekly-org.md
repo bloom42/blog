@@ -42,6 +42,9 @@ I think we are just at the beginning of the open source revolution and I want to
 Sylvain
 
 
+
+
+
 ---------------------------
 
 TODO:
@@ -79,3 +82,8 @@ I think we are just at the beginning of the open source revolution and I want to
 
 
 First issue on February, 28th 2020.
+
+
+💬 Discuss on Hacker News: [https://news.ycombinator.com/item?id=22424059](https://news.ycombinator.com/item?id=22424059)
+
+🗣️ Discuss on Reddit: [https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best](https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best)
