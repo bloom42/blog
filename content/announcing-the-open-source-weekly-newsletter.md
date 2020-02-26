@@ -46,9 +46,6 @@ Sylvain
 ---------------------------
 
 TODO:
-* bloquer les inscriptions
-* mettre a jour site perso et profile twitter
-* ajouter sur google search
 * post on HN
 * post on Reddit
 * release blog post
