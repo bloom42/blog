@@ -14,11 +14,11 @@ A weekly letter of the best projects, people and articles on open source, curate
 
 Why? How? What? 👉 https://fatalentropy.com/announcing-opensourceweekly-org/
 
-💬 Discuss on Hacker News:
-🗣️ Discuss on Reddit:
+💬 Discuss on Hacker News: https://news.ycombinator.com/item?id=22424059
+🗣️ Discuss on Reddit: https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best/
 
 
-While developing Bloom, I realized how much I love open source. So I decided to spread its greatness to the world. I think it's just the beginning of a revolution!
+While developing Bloom, I realized how much I love open source. So I decided to spread its greatness with the world. I think it's just the beginning of a revolution!
 
 
 ---------------------------
@@ -86,4 +86,7 @@ First issue on February, 28th 2020.
 
 💬 Discuss on Hacker News: [https://news.ycombinator.com/item?id=22424059](https://news.ycombinator.com/item?id=22424059)
 
-🗣️ Discuss on Reddit: [https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best](https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best)
+
+<div class="text-left mb-5">
+🗣️ Discuss on Reddit: <a href="https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best">https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best</a>
+</div>
