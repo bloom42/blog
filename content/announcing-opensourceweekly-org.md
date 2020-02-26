@@ -9,7 +9,7 @@ draft = true
 [extra]
 lang = "en"
 comments = """
-I'm pleased to announce OpenSourceWeekly.org 🎉
+I'm pleased to launch OpenSourceWeekly.org 🎉
 
 A weekly letter of the best projects, people and articles on open source, curated by hand
 
