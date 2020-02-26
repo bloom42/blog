@@ -7,14 +7,6 @@ authors = ["Sylvain Kerkour"]
 
 [extra]
 lang = "en"
-comments = """
-
-TODO:
-
-* envoyer email Bloom
-
-* some hours later: tweet Sylvain
-"""
 +++
 
 
