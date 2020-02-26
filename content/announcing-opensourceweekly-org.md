@@ -13,7 +13,7 @@ I'm pleased to announce OpenSourceWeekly.org 🎉
 
 A weekly newsletter of the best projects, people and articles on open source, curated by hand
 
-Why? How? What? 👉 https://fatalentropy.com/announcing-the-open-source-weekly-newsletter
+Why? How? What? 👉 https://fatalentropy.com/announcing-opensourceweekly-org/
 
 💬 Discuss on Hacker News:
 🗣️ Discuss on Reddit:
@@ -46,9 +46,9 @@ Sylvain
 ---------------------------
 
 TODO:
+* release blog post
 * post on HN
 * post on Reddit
-* release blog post
 * tweet Bloom
 * toots
 * envoyer email
