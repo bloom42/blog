@@ -25,7 +25,7 @@ While developing Bloom, I realized how much I love open source. So I decided to 
 
 Hi {HN, Reddit},
 
-While developing <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
+While developing <a href="https://gitlab.com/bloom42/bloom/" target="_blank" rel="noopener">Bloom</a>
 I realized how much I love open source. So I decided to share this passion to the world. Whether it be in software, in hardware, in education, in sciene or in agriculture, open source have proved its superiority.
 
 However it's very difficult to find interesting and quality content in this ocean. Just GitHub had over
