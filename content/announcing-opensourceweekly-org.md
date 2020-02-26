@@ -32,7 +32,7 @@ However it's very difficult to find interesting and quality content in this ocea
 <a href="https://github.blog/2018-11-08-100m-repos/" target="_blank" rel="noopener">100M repositories in 2018</a> 🤔
 
 
-So I created the Open Source Weekly newsletter, where you will find the best projects, people and articles on open source, curated by hand.
+So I created the Open Source Weekly letter, where you will find the best projects, people and articles on open source, curated by hand.
 
 Whether you want to make your first contribution, discover new interesting projects or people, this newsletter is for you.
 
@@ -64,7 +64,7 @@ However it's very difficult to find interesting and quality content in this ocea
 <a href="https://github.blog/2018-11-08-100m-repos/" target="_blank" rel="noopener">100M repositories in 2018</a> 🤔
 
 
-So I created the Open Source Weekly newsletter, where you will find the best projects, people and articles on open source, curated by hand.
+So I created the Open Source Weekly letter, where you will find the best projects, people and articles on open source, curated by hand.
 
 <div class="text-center mb-5 mt-5">
   <a href="https://opensourceweekly.org" target="_blank" rel="noopener">https://OpenSourceWeekly.org</a>
