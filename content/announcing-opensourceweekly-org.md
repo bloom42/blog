@@ -33,7 +33,7 @@ So I created the Open Source Weekly letter, where you will find the best project
         We'll never share your email and you can unsubscribe at anytime.</small> -->
 </div>
 
-Whether you want to make your first contribution, discover new interesting projects or people, I will do my best to satisfy you.
+Whether you want to make your first contribution, discover interesting projects or people, I will do my best to satisfy you.
 
 I think we are just at the beginning of the open source revolution and I want to contribute to spread its greatness.
 
