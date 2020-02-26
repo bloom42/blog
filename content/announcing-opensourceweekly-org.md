@@ -27,7 +27,7 @@ This is why I created the Open Source Weekly letter: the best projects, people a
 
 Whether you want to make your first contribution, discover interesting projects or people, I will do my best to satisfy you.
 
-I think we are just at the beginning of the open source revolution and I want to contribute to spread its greatness.
+I believe we are just at the beginning of the open source revolution and this is my contribution to spread its greatness.
 
 
 First issue on February, 28th 2020.
