@@ -8,23 +8,20 @@ date = 2019-02-05T01:42:42+02:00
 
 <br />
 
-## Twitter
+## RSS
 
-Follow
-<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener noreferer">@42bloom</a> and
-<a href="https://twitter.com/@z0mbie42" target="_blank" rel="noopener noreferer">@z0mbie42</a>
-on Twitter to never miss one of our posts.
+Love RSS? Use this URL in your favorite RSS reader: <br />
+[{{< rssurl >}}]({{< rssurl >}})
 
 <br />
 
-## RSS
+## Twitter
 
-Prefer RSS? Use this URL in your favorite RSS reader: <br />
-[{{< rssurl >}}]({{< rssurl >}})
+Follow
+<a href="https://twitter.com/@42bloom" target="_blank" rel="noopener">@42bloom</a> on Twitter to never miss one of our posts.
 
 <br />
 
 ## Mastodon
 
-<a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener noreferer">
-https://mastodon.social/@42bloom</a>
+<a href="https://mastodon.social/@42bloom" target="_blank" rel="me noopener">@42bloom@mastodon.social</a>

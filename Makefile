@@ -11,6 +11,11 @@ build:
 dev:
 	hugo server --buildDrafts
 
+.PHONY: server
+server:
+	hugo server
+
+
 .PHONY: clean
 clean:
 	rm -rf $(DIST_DIR)
