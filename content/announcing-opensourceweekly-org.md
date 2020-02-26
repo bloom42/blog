@@ -8,21 +8,6 @@ authors = ["Sylvain Kerkour"]
 [extra]
 lang = "en"
 comments = """
-I'm pleased to launch OpenSourceWeekly.org 🎉
-
-A weekly letter of the best projects, people and articles on open source, curated by hand
-
-Why? How? What? 👉 https://fatalentropy.com/announcing-opensourceweekly-org/
-
-💬 Discuss on Hacker News: https://news.ycombinator.com/item?id=22424059
-🗣️ Discuss on Reddit: https://www.reddit.com/r/linux/comments/f9v8rv/opensourceweeklyorg_a_weekly_letter_of_the_best/
-
-
-While developing Bloom, I realized how much I love open source. So I decided to spread its greatness with the world. I think it's just the beginning of a revolution!
-
-
----------------------------
-
 Hi {HN, Reddit},
 
 While developing <a href="https://gitlab.com/bloom42/bloom/" target="_blank" rel="noopener">Bloom</a>
@@ -48,11 +33,6 @@ Sylvain
 ---------------------------
 
 TODO:
-* post on HN
-* post on Reddit
-* update blog post avec liens reddit et HN
-* tweet Bloom
-* toots
 
 * envoyer email Bloom
 
