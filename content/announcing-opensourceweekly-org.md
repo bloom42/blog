@@ -42,7 +42,7 @@ TODO:
 
 
 While developing <a href="https://bloom.sh" target="_blank" rel="noopener">Bloom</a>
-I realized how much I love open source. So I decided to share this passion with the world. Whether it be in software, in hardware, in education, in ecology, in c or in agriculture, open source have proved its superiority.
+I realized how much I love open source. So I decided to share this passion with the world. Whether it be in software, in hardware, in education, in ecology, in science or in agriculture, open source have proved its superiority.
 
 However it's very difficult to find interesting and quality content in this ocean: just GitHub had over
 <a href="https://github.blog/2018-11-08-100m-repos/" target="_blank" rel="noopener">100M repositories in 2018</a> 🤔
