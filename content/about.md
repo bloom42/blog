@@ -30,18 +30,18 @@ people with open technologies ✌️
 
 You can contact the authors using one of the following way:
 * Using email: <span class="obfuscated-email">Javascript is required to access email address</span>
-* By saying <i>Hi</i> on Twitter: <a href="https://twitter.com/42bloom" target="_blank" rel="noopener">@42bloom</a>
+* By saying <i>Hi</i> on Twitter: [@42bloom](https://twitter.com/42bloom).
 
 <br />
 
 ## License
 
 All the content on this website is licensed under the
-<a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" >CC BY-SA 4.0 License</a>.
+[CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 <br />
 
 ## Source code
 
 The source code of this website is available on GitLab:
-<a href="{{< giturl >}}" target="_blank" rel="noopener">{{< giturl >}}</a>
+[{{< giturl >}}]({{< giturl >}}).

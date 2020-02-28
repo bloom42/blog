@@ -8,29 +8,31 @@ function rot13(s) {
 }
 
 // document ready
-(function ($) {
+$(document).ready(function() {
 
   var previousScroll = 20;
   var minimumScroll = 71;
-      // scroll functions
-      $(window).scroll(function(e) {
-
-          // add/remove class to navbar when scrolling to hide/show
-          var scroll = $(window).scrollTop();
-          if (scroll >= previousScroll && scroll >= minimumScroll) {
-              $('.navbar').addClass("navbar-hide");
-          } else if (scroll < previousScroll) {
-              $('.navbar').removeClass("navbar-hide");
-          }
-          previousScroll = scroll;
-      });
-
-    // deofuscate emails
-    var emails = document.getElementsByClassName("obfuscated-email");
-    if (emails) {
-      for (var i = 0; i < emails.length; i += 1) {
-        emails[i].innerHTML = rot13(window.obfuscatedEmail);
-      }
+  // scroll functions
+  $(window).scroll(function(e) {
+    // add/remove class to navbar when scrolling to hide/show
+    var scroll = $(window).scrollTop();
+    if (scroll >= previousScroll && scroll >= minimumScroll) {
+        $('.navbar').addClass("navbar-hide");
+    } else if (scroll < previousScroll) {
+        $('.navbar').removeClass("navbar-hide");
     }
+    previousScroll = scroll;
+  });
 
-})(jQuery);
+  // deofuscate emails
+  var emails = document.getElementsByClassName("obfuscated-email");
+  if (emails) {
+    for (var i = 0; i < emails.length; i += 1) {
+      emails[i].innerHTML = rot13(window.obfuscatedEmail);
+    }
+  }
+
+  $(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+  }).attr('target', '_blank').attr('rel', 'noopener');
+});
