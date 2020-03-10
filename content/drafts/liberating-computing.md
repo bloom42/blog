@@ -21,13 +21,36 @@ Dire que ces dern9 années ont ete perdues
 Nous avons detruit notre monde au nom d'un mrofit court termidte, et tout doit etre reconstruit afin d'etre durable
 
 
-A la fin proposer un plan d'action
+### Windows need to die
 
-Pour chaque type de personne
+Unix a une part de marche suffisante pour se faire du fric, plus la peine de perdre du temps a dev des apps windows
+Montrer les nouveaux OS qui supportent linux (harmony, chromeOs...)
 
-Vous etes un investisseur, vous pouvez faire ca
-Un entrepreneur ca
-Un dev ca...
+sur le court terme, cela pourra faire auguementer un petit peu les part de marche de MacOS,
+mais cela va sourtout encourager tout le monde a se focus sur Linux :)
+
+
+Envoyer message a linux ++ et mec de godot
+
+
+
+## Call to action
+
+### investors
+
+### Entrepreneurs
+
+### dev
+
+Offrir free pirate ebook pour les maintainers d'un projet open source
+
+
+### distro maintainers
+
+### User
+
+voter avec votre portefeuille
+donate to your projectd
 
 """
 +++
