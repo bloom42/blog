@@ -6,4 +6,4 @@ https://fatalentropy.com
 
 ## Licensing
 
-See `LICENSE.txt` and https://gitlab.com/bloom42/wiki/-/wikis/organization/licensing
+See `LICENSE.txt` and https://bloom.sh/licensing
