@@ -46,5 +46,9 @@
 
   <!-- css -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <style>
+  {{ with resources.Get "sass/style.scss" | toCSS | minify }}
+    {{ .Content | safeCSS }}
+  {{ end }}
+  </style>
 </head>
