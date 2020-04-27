@@ -33,6 +33,14 @@ Nous y sommes, Cela fais 6 mois que j'attendais ce moment...
 
 rappel un peu de Bloom, les 6 derniers mois, HN, ProductHunt...
 
+I no longer trut:
+Partie sur why next/own/x cloud is not a solution
+
+I want to trudt my service provider
+Offline first
+I dont find their tzchnical.vhoices relevant
+
+
 # rappel Legacy shutdown
 
 parler du script de backup
