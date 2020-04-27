@@ -1,6 +1,6 @@
 +++
 date = 2020-01-05T10:00:00+01:00
-title = "You no longer trust tech monopolies with your data? Me neither, so I built Bloom"
+title = "I longer trust tech monopolies. So I built Bloom"
 tags = ["go", "flutter", "bloom"]
 type = "post"
 authors = ["Sylvain Kerkour"]
@@ -22,6 +22,11 @@ Why? -> Ce qu'est Bloom, et pq je l'ai construit
 How? -> court rappel
 What? -> description des apps avec screenshots + what is coming
 
+
+assymetry of power / great powerr imbalance do not and has never led to a stalbe society.
+
+I do't trust them with my data
+i dont trust them for my future
 
 raconter mon histoire avec Bloom
 Nous y sommes, Cela fais 6 mois que j'attendais ce moment...
