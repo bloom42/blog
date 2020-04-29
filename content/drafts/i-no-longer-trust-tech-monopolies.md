@@ -47,7 +47,7 @@ mais parce que c'est une infrastructure de synchronization chifree de fichiers e
 Et bientot de communication
 From the use case will naturally emerge a protocol for e2ee sync of data.
 
-As far as I know, this is the first time that users have real ownership of their data.
+As far as I know, this is the first time that users are given the real ownership of their data.
 Git for all kind of data.
 `schema avec els repositories.`
 
