@@ -40,6 +40,22 @@ I want to trudt my service provider
 Offline first
 I dont find their tzchnical.vhoices relevant
 
+like adults told to do me in high school, I created my Gmail address and used it religiously for ~7 years.
+
+Bloom est revolutionnaire non pas parce que c'est une simple app de note parmis tant d'autres,
+mais parce que c'est une infrastructure de synchronization chifree de fichiers et de donnees
+Et bientot de communication
+From the use case will naturally emerge a protocol for e2ee sync of data.
+
+
+Analytics: le probleme n'est pas simplement que la privacy et le (soit disant) consentement (facile a abuser).
+Je refuse tout simplement que le moindre cycle de CPU et de resource reseau soit dedié a ca.
+
+Don't trust for my future:
+Ces entreprises sont trop grande. La responsabilite et le leadership est trop diffus.
+
+De plus elles sont empetrees dans le bullshit du stock market qui les forcent a auguementer leurs revenus
+a chaque quarter (et comme on le sait, notre monde est finis... Cette idee a donc ses limites).
 
 # rappel Legacy shutdown
 
