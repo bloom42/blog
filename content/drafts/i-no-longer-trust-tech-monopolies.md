@@ -36,9 +36,6 @@ rappel un peu de Bloom, les 6 derniers mois, HN, ProductHunt...
 I no longer trut:
 Partie sur why next/own/x cloud is not a solution
 
-I want to trudt my service provider
-Offline first
-I dont find their tzchnical.vhoices relevant
 
 like adults told to do me in high school, I created my Gmail address and used it religiously for ~7 years.
 
@@ -49,7 +46,14 @@ From the use case will naturally emerge a protocol for e2ee sync of data.
 
 As far as I know, this is the first time that users are given the real ownership of their data.
 Git for all kind of data.
+
+`schema centralisation classique`
 `schema avec els repositories.`
+
+I want to trudt my service provider
+Offline first
+I dont find their tzchnical.vhoices relevant
+
 
 
 Analytics: le probleme n'est pas simplement que la privacy et le (soit disant) consentement (facile a abuser).
