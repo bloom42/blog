@@ -75,6 +75,9 @@ NOOOOOO
 This is the result of technical choices mostly made to protect business models which are antagonist
 to the users' needs.
 
+`schema centralisation classique`
+legende: This is bad
+
 
 Bloom est revolutionnaire non pas parce que c'est une simple app de note parmis tant d'autres,
 mais parce que c'est une infrastructure de synchronization chifree de fichiers et de donnees
@@ -84,8 +87,12 @@ From the use case will naturally emerge a protocol for e2ee sync of data.
 As far as I know, this is the first time that users are given the real ownership of their data.
 Git for all kind of data.
 
-`schema centralisation classique`
 `schema avec els repositories.`
+legende: This is good
+
+
+On offre pas un cloud
+on offre un github/lab qui facilite la synchroniwzation et la.collaboration
 
 I want to trudt my service provider
 Offline first
