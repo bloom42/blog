@@ -91,3 +91,7 @@ reparler de la CIA triad
 
 Partie sur why next/own/x cloud is not a solution
 I dont find their tzchnical.vhoices relevant
+
+
+
+##  this is awesome, how to help '?
