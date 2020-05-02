@@ -45,6 +45,13 @@ Je refuse tout simplement que le moindre cycle de CPU et de resource reseau soit
 
 # Bloom (what / solution)
 
+
+
+    “Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography.”
+
+    — Edward Snowden, invoking Thomas Jefferson
+
+
 raconter mon histoire avec Bloom
 Nous y sommes, Cela fais 6 mois que j'attendais ce moment...
 
