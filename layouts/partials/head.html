@@ -47,8 +47,11 @@
   <!-- css -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
   <style>
-  {{ with resources.Get "sass/style.scss" | toCSS | minify }}
-    {{ .Content | safeCSS }}
-  {{ end }}
+    {{ with resources.Get "sass/theme.scss" | toCSS | minify }}
+      {{ .Content | safeCSS }}
+    {{ end }}
+    {{ with resources.Get "sass/style.scss" | toCSS | minify }}
+      {{ .Content | safeCSS }}
+    {{ end }}
   </style>
 </head>
