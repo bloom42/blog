@@ -21,8 +21,11 @@ Entropy is an important part of our lives and if you don't control it, it will c
 
 ## Authors
 
-From the creators (and friends) of [Bloom](https://bloom.sh) and [Open Source Weekly](https://opensourceweekly.org). Their mission is to empower
-people with open technologies ✌️
+This blog is lovingly curated by hand by
+<a href="https://kerkour.fr" rel="noopener" target="_blank">Sylvain Kerkour</a>, the creator of
+<a href="https://bloom.sh" target="_blank" rel="noopener">
+Bloom: An open source and encrypted productivity app (Files, Calendar, Contacts...)</a>.<br />
+His mission is to empower people with open technologies ✌️
 
 <br />
 
