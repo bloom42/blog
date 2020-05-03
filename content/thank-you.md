@@ -18,7 +18,7 @@ date = 2019-02-05T01:42:42+02:00
   <span class="sr-only">Loading...</span>
 </div>
 
-The next issue will be coming soon, but in the mean time you can check out the **[last issues](/#past-issues)**.
+The next issue will be coming soon, but in the mean time you can check out the **[last issues](/)**.
 
 Also, just so you know, you can always click reply to any issue to give feedback or ask questions.
 
