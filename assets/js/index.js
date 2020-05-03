@@ -40,7 +40,7 @@
 // Setup
 window.apiBaseUrl = 'https://shibui.bloom42.com/api';
 // window.apiBaseUrl = 'http://localhost:8000/api';
-window.shibuiProjectId = 'c2lkOi8vc2hpYnVpL1Byb2plY3QvMQ';
+window.shibuiProjectId = 'ONUWIORPF5ZWQ2LCOVUS6UDSN5VGKY3UF4YQ';
 
 // Functions
 function rot13(s) {
