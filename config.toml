@@ -24,6 +24,7 @@ enableGitInfo = true
     """
   git = "https://gitlab.com/bloom42/blog"
   obfuscatedEmail = '<n uers="znvygb:uryyb@oybbz.fu">uryyb@oybbz.fu</n>'
+  ogimage = "https://fatalentropy.com/imgs/og_image.jpg"
 
 
 [outputFormats.jsonfeed]
