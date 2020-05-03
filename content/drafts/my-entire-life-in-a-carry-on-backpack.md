@@ -92,7 +92,7 @@ I use the small (can fit in a pocket once folded) 20L backpack for groceries or 
 <!-- TODO: photos des items -->
 
 
-For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears, I kow.
+For a <a href="https://reddit.com/r/onebag" target="_blank" rel="noopener"><i>oneBagger</i></a> I have a lot of underwears, I know.
 It allows me to do sport 3 times per week and still have to worry about washing my clothes only once a week.
 
 The black jean is used with a black turtleneck when formal dressing is *required*.
