@@ -1,3 +1,7 @@
+@charset "utf-8";
+
+@import "const.scss";
+
 @font-face {
   font-family: 'national2';
   src: url(/fonts/National2CondensedWeb-BoldItalic.woff2);
@@ -150,3 +154,19 @@ a:hover {
 .pager li {
   list-style-type: none;
 }
+
+
+.jumbotron2 {
+  margin-top: 63px;
+}
+
+.blm-email-input-col {
+  max-width: 65vw;
+}
+
+.subscribe {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: -53px;
+}
+
