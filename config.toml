@@ -2,7 +2,11 @@ baseURL = "https://fatalentropy.com"
 languageCode = "en-us"
 title = "Fatal Entropy"
 disableHugoGeneratorInject = true
+enableGitInfo = true
 
+[author]
+  name = "Sylvain Kerkour"
+  email = "hello@fatalentropy.com"
 
 [markup.goldmark.renderer]
   unsafe= true
@@ -20,3 +24,16 @@ disableHugoGeneratorInject = true
     """
   git = "https://gitlab.com/bloom42/blog"
   obfuscatedEmail = '<n uers="znvygb:uryyb@oybbz.fu">uryyb@oybbz.fu</n>'
+
+
+[outputFormats.jsonfeed]
+  mediaType = "application/json"
+  baseName = "feed"
+  isPlainText = true
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+
+[outputs]
+  home = ["HTML", "RSS", "jsonfeed"]
