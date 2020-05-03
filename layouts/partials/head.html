@@ -10,16 +10,10 @@
 
   <link rel="shortcut icon" href="{{ "imgs/favicon.svg" | relURL }}"/>
 
-  {{ if .IsHome -}}
-    <title>{{ .Site.Title }}</title>
-  {{- else -}}
-    <title>{{ .Site.Title }} - {{ .Title }}</title>
-  {{- end }}
-
   <meta name="description" content="{{ .Site.Params.Description }}" />
 
 
-  <!-- Social -->
+  <!-- SOCIAL -->
   <meta name="og:title" property="og:title" content="{{ .Site.Title }}" />
   <!-- <meta property="og:description" content="Open internet services. Build, collaborate, innovate and play with Bloom." /> -->
   <meta name="og:description" property="og:description" content="{{ .Site.Params.Description }}" />
@@ -41,6 +35,7 @@
   <link rel="alternate" hreflang="x-default" href="{{ $.Site.BaseURL }}" />
 
 
+  <!-- FEEDS -->
   {{ with .Site.GetPage "/" }}
     {{ with .OutputFormats.Get "rss" -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -52,7 +47,8 @@
     {{ end -}}
   {{ end }}
 
-  <!-- css -->
+
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
   <style>
     {{ with resources.Get "sass/theme.scss" | toCSS | minify }}
@@ -62,4 +58,12 @@
       {{ .Content | safeCSS }}
     {{ end }}
   </style>
+
+
+  <!-- TITLE -->
+  {{ if .IsHome -}}
+    <title>{{ .Site.Title }}</title>
+  {{- else -}}
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
+  {{- end }}
 </head>
