@@ -56,3 +56,4 @@ node_modules/
 # Project
 public/
 /themes/
+resources/_gen/

@@ -1,20 +1,9 @@
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar">
+<nav class="navbar fixed-top navbar-dark bg-dark justify-content-between" id="navbar">
   <a class="navbar-brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse align-items-center" id="navbarToggler">
-    <ul class="navbar-nav ml-auto align-items-center">
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "subscribe" | relURL }}">Subscribe</a>
-      </li>
-      <li class="nav-item d-none d-md-block">
-        /
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "about" | relURL }}">About</a>
-      </li>
-    </ul>
+  <div class="navbar-nav" style="flex-direction: row;">
+    <a class="nav-item nav-link" href="{{ "subscribe" | relURL }}">Subscribe</a>
+    &nbsp;&nbsp; <span class="nav-item nav-link">/</span>&nbsp;&nbsp;
+    <a class="nav-item nav-link" href="{{ "about" | relURL }}">About</a>
   </div>
 </nav>

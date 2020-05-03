@@ -1,0 +1,4 @@
+* migrer l'archive
+* decider de quel sous dossier (ou non) on va utiliser
+* s'assurer quer FE a les bon feeds
+* changer les url des feeds
