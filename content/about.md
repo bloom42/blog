@@ -28,12 +28,23 @@ people with open technologies ✌️
 
 ## Contact
 
-You can contact the authors using one of the following way:
-* Using email: <span class="obfuscated-email">Javascript is required to access email address</span>
-* By saying <i>Hi</i> on Twitter: [@42bloom](https://twitter.com/42bloom).
+Fell free to contact me by email: <span class="obfuscated-email">Javascript is required to access email address</span>
 
 <br />
 
+## Mastodon
+
+Follow
+<a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener">@42bloom@mastodon.social</a> on the Fediverse to never miss an issue.
+
+<br />
+
+## Twitter
+
+Follow
+<a href="https://twitter.com/@42Bloom" target="_blank" rel="noopener">@42Bloom</a> on Twitter to never miss an issue.
+
+<br />
 ## License
 
 All the content on this website is licensed under the
