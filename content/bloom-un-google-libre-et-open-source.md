@@ -492,13 +492,6 @@ Cet argent sera utilisé pour financer les personnes contribuant avec leur temps
 * <s>En souscrivant à un abonnement sur <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Ouverture des abonnements dans 1 semaine.
 
 
-<!-- * En faisant un don *Paypal* :
-
-<a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
-  <img src="/imgs/paypal_donate.gif" height="42"/>
-</a> -->
-
-
 Un grand merci aux personnes ayant déjà contribué directement ou indirectement :
 
 * Ma famille
