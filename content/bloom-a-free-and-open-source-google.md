@@ -318,11 +318,11 @@ This money will be used to finance people who contribute with their time to a mo
 
 * <s>By subscribing on <a href="https://bloom.sh" target="_blank" rel="noopener">bloom.sh</a></s> Opening of subscriptions in 1 week.
 
-* By making a *Paypal* donation:
+<!-- * By making a *Paypal* donation:
 
 <a href="https://paypal.me/z0mbie42" target="_blank" rel="noopener">
   <img src="paypal_donate.gif" height="42"/>
-</a>
+</a> -->
 
 
 Many thanks to those who have already contributed directly or indirectly:
