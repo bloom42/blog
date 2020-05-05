@@ -67,7 +67,7 @@ Mais aussi open source ne veut pas dire que je vais zccepter n'importe quelle fe
 
 ## Coming soon
 
-So if.ypu do not.like.the current direction of the internet Common an.join the fight
+So if.ypu do not.like.the current direction of the internet, the buzzword bingo and walled gardens Common an.join the fight
 
 ## More applications
 
