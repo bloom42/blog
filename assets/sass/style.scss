@@ -12,11 +12,6 @@
   src: url(/fonts/TiemposTextWeb-Regular.woff2);
 }
 
-@font-face {
-  font-family: 'tiempos_bold';
-  src: url(/fonts/TiemposTextWeb-Bold.woff2);
-}
-
 body {
   margin: 0;
   /* font-family: 'Times New Roman', serif; */
@@ -62,12 +57,12 @@ main {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: tiempos_bold;
+  font-family: tiempos_regular;
   /* font-family: arial, sans-serif; */
-  /* font-weight: 800; */
+  // font-weight: 800;
   word-break: break-word;
-  color: #000;
-  font-weight: normal;
+  color: #000000;
+  font-weight: bold;
 }
 
 a, a:visited {
