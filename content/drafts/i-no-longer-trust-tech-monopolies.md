@@ -67,6 +67,8 @@ Mais aussi open source ne veut pas dire que je vais zccepter n'importe quelle fe
 
 ## Coming soon
 
+So if.ypu do not.like.the current direction of the internet Common an.join the fight
+
 ## More applications
 
 parler de l'idee que + d'applications vont voir le jour, please upvote on GitLab for your favorite feature
