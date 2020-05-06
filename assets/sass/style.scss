@@ -17,12 +17,18 @@ body {
   /* font-family: 'Times New Roman', serif; */
   // font-family: tiempos_regular;
   font-family: $font-family-serif;
-  font-size: 21px;
+  font-size: 22px;
+  // font-weight: 200;
   line-height: 1.5;
   /* color: #333; */
   /* background-color: #f6f6ef; */
 
 }
+
+p {
+  line-height: 1.4;
+}
+
 main {
   /* padding-top: 30px; */
   /* padding-bottom: 30px; */
