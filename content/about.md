@@ -60,4 +60,4 @@ All the content on this website is licensed under the
 ## Source code
 
 The source code of this website is available on GitLab:
-[{{< giturl >}}]({{< giturl >}}).
+[{{< giturl >}}]({{< giturl >}})
