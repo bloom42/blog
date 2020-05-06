@@ -12,7 +12,7 @@ We share on this blog our ideas and experience on how we tackle entropy and keep
 
 Equilibrium is death and too much entropy (chaos) is fatal.
 
-In this blog we explore how complexity and chaos infiltrate systems, organizations and organisms and lead to a slow and painful collapse.
+In this blog we explore how complexity and chaos infiltrate systems, organizations and organisms and lead to a slow and painful demise.
 
 <!-- Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example. Anyway -->
 
