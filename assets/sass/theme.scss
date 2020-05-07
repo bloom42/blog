@@ -17,7 +17,6 @@ body {
 nav {
   align-items: center;
   display: flex;
-  justify-content: space-between;
   background-color: $color-dark;
   font-size: 26px;
   font-weight: 600;
@@ -67,7 +66,7 @@ main {
   justify-content: center !important;
   margin: 0 auto;
   margin-top: 63px;
-  text-align: justify !important;
+  // text-align: justify !important;
   padding-top: 15px;
   padding-bottom: 20px;
 }
