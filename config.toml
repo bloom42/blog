@@ -6,7 +6,8 @@ enableGitInfo = true
 
 [author]
   name = "Sylvain Kerkour"
-  email = "hello@fatalentropy.com"
+  email = "sylvain@kerkour.fr"
+  # email = "hello@fatalentropy.com"
 
 [markup.goldmark.renderer]
   unsafe= true
