@@ -26,8 +26,9 @@
   <meta name="twitter:description" property="twitter:description" content="{{ .Site.Params.Description }}">
   <meta name="twitter:image" property="twitter:image" content="{{ .Site.BaseURL }}/imgs/og_image.jpg">
 
-  <link rel="alternate" hreflang="en" href="{{ $.Site.BaseURL }}" />
-  <link rel="alternate" hreflang="x-default" href="{{ $.Site.BaseURL }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="en" href="{{ .Permalink }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
 
 
   <!-- FEEDS -->
