@@ -88,6 +88,8 @@ NOOOOOO
 This is the result of technical choices mostly made to protect business models which are antagonist
 to the users' needs.
 
+This is feodalism. History taugh us that it's bad.
+
 We can't beat them playing by their rules. They will always have a bigger and faster cloud. We should be smarter.
 
 
