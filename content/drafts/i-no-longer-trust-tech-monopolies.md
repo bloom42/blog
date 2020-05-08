@@ -99,6 +99,8 @@ D'une pierre 3 coups, on pourrait donner le controle de leur donnees aux utilisa
 nous faciliter la vie en reduisant les couts d'operations, et leur assener un sacré coup puisque tous ces
 investissement dans le cloud deviendraient inutiles!
 
+Sorry Microsoft. all these $$ burned to rattraper votre retard dans le cloud et faire de nous vos gentils esclaves.
+
 
 `schema avec els repositories.`
 legende: This is good
