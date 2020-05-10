@@ -31,6 +31,9 @@ assymetry of power / great powerr imbalance do not and has never led to a stalbe
 
 I do't trust them with my data
 i dont trust them for my future
+I don't trust them with my work: too many stories of people blocked out of their account with no way to
+recover it. Some had chances to be make noise on social netwoeks and be able to reach someone at big corp.
+Some just lost their business
 
 Don't trust for my future:
 Ces entreprises sont trop grande. La responsabilite et le leadership est trop diffus.
