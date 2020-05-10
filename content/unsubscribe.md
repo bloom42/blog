@@ -23,7 +23,7 @@ Are you Sure?
 <button type="button" class="btn btn-danger" id="osw-unsubscribe-btn">Yes, unsubscribe me</button>
 
 
-<script type="application/javascript">
+<script type="text/javascript">
 function unsubscribe() {
   hideAlert();
   var urlParams = new URLSearchParams(window.location.search);
