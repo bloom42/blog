@@ -20,5 +20,7 @@ avons besoin!
 
 On se rend donc bien compte que ca ne peut pas continuer ainsi, et que le cloud business est locké.
 
+Edge computing est la meme merde. c'est simplement des nouveaux arrivants
+
 Commment je vais mettre fin au cloud computing:
 Ce n'rst pas si, mais simplement comment
