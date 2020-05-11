@@ -1,0 +1,24 @@
++++
+date = 2020-01-01T01:42:42+02:00
+title = "Project sunlight"
+tags = []
+type = "post"
+authors = ["Sylvain Kerkour"]
+draft = true
+
+[extra]
+lang = "en"
++++
+
+Project Sunlight (ou sun).
+
+Il fait un peu nuageux, vous ne trouvez pas?
+
+Les geants de l'internet ont investit massivement dans des cloud couteux...
+mais le tour de force n'est pas d'avoir construit ces cloud, c'est de nous avoir convaincu que nous en
+avons besoin!
+
+On se rend donc bien compte que ca ne peut pas continuer ainsi, et que le cloud business est locké.
+
+Commment je vais mettre fin au cloud computing:
+Ce n'rst pas si, mais simplement comment
