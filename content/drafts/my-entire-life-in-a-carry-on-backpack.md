@@ -19,6 +19,7 @@ Resources:
 * https://lifebefore30.com/how-ive-managed-to-fit-my-life-into-2-suitcases-for-4-years-a-list-of-everything-i-travel-with-for-the-curious/
 * http://juliasomething.com/pack-life-suitcase/
 * http://www.carriespeaking.com/blog/your-life-in-a-carry-on-luggage
+* https://www.reddit.com/r/onebag/comments/gk84ab/indefinite_travel_125_items_24l_8kg_cpl24_loadout/
 """
 +++
 
