@@ -1,18 +1,14 @@
 {{ $pag := $.Paginator }}
+<div class="pagination center">
 {{ if gt $pag.TotalPages 1 }}
-<ul>
     {{ if $pag.HasPrev }}
-    <li>
         <a href="{{ $pag.Prev.URL }}">&larr; Newer Posts</a>
-    </li>
     {{ end }}
     {{ if (and $pag.HasNext  $pag.HasPrev) }}
-    &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
     {{ end }}
     {{ if $pag.HasNext }}
-    <li>
         <a href="{{ $pag.Next.URL }}">Older Posts &rarr;</a>
-    </li>
     {{ end }}
-</ul>
+</div>
 {{ end }}

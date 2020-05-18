@@ -10,22 +10,112 @@ body {
   @media (max-width: 600px) {
     font-size: $font-size-small;
   }
-  max-width: 800px;
+  max-width: 700px;
   padding: 0 21px;
+  padding-bottom: 21px;
+}
+
+a, a:visited {
+  color: $font-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // font-weight: 420;
+  word-break: break-word;
+  color: $font-color;
+}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: $font-family-sans-serif;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  text-decoration: none;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid #e9e9e9;
+    border-radius: $border-radius;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 20px;
 }
 
 nav {
-  .active {
-    text-decoration: underline;
-  }
+  font-size: $font-size-base + 2px;
   a {
     padding-right: 5px;
   }
 }
 
-a {
-  text-decoration: none;
-  &:not(.anchor):hover {
-    text-decoration: underline;
+
+main {
+  a, a:visited {
+    color: $links-color;
+    &:hover {
+      color: $links-color;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    // font-weight: 420;
+    word-break: break-word;
+    color: $font-color;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
 }
