@@ -1,0 +1,31 @@
+@import "const.scss";
+
+body {
+  margin: 0 auto;
+  font-family: $font-family-serif;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: $font-color;
+  background-color: #ffffff;
+  @media (max-width: 600px) {
+    font-size: $font-size-small;
+  }
+  max-width: 800px;
+  padding: 0 21px;
+}
+
+nav {
+  .active {
+    text-decoration: underline;
+  }
+  a {
+    padding-right: 5px;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:not(.anchor):hover {
+    text-decoration: underline;
+  }
+}

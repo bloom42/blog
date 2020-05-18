@@ -1,3 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.Language }}">
+  {{ partial "head.html" . }}
+  <body>
+    <header>
+      {{ partial "nav.html" . }}
+    </header>
+
+    <main>
+      {{ block "main" . }} {{ end }}
+    </main>
+
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+  </body>
+  <script src="{{ "js/jquery-3.4.1.min.js" | relURL }}"></script>
+  {{ with resources.Get "js/index.js" | minify }}
+  <script type="text/javascript">{{ .Content | safeJS }}</script>
+  {{ end }}
 </html>
