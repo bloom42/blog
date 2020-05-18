@@ -94,6 +94,17 @@ nav {
   a {
     padding-right: 5px;
   }
+
+  // description
+  p {
+    margin: 10px 0px;
+    opacity: 0.8;
+    font-size: $font-size-base - 2px;
+
+    a {
+      color: $links-color;
+    }
+  }
 }
 
 

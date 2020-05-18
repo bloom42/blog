@@ -4,14 +4,6 @@ nav {
   .active {
     text-decoration: underline;
   }
-
-  .description {
-    a {
-      color: $links-color;
-    }
-    opacity: 0.8;
-    font-size: $font-size-base;
-  }
 }
 
 .entry-title {
@@ -68,13 +60,6 @@ nav {
   100% { transform: rotate(360deg); }
 }
 
-// .subscribe-form {
-//   display: flex;
-//   align-content: center;
-//   input {
-//     margin-right: 10px;
-//   }
-// }
 
 .alert {
   border-radius: $border-radius;
