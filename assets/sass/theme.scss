@@ -101,7 +101,7 @@ nav {
     opacity: 0.8;
     font-size: $font-size-base - 2px;
 
-    a {
+    a, a:visited {
       color: $links-color;
     }
   }
