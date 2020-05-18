@@ -1,6 +1,6 @@
 # Blog
 
-Strong opinions and crazy ideas on tech, open source, sustainability and everything in between. By the creators of Bloom.
+Strong opinions and crazy ideas on open source, minimalism, sustainability and everything in between. By the creators of Bloom.
 
 https://fatalentropy.com
 
