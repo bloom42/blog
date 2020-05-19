@@ -13,9 +13,10 @@
     <footer>
       {{ partial "footer.html" . }}
     </footer>
+
+    <script src="{{ "js/jquery-3.5.1.slim.min.js" | relURL }}"></script>
+    {{ with resources.Get "js/index.js" | minify }}
+    <script type="text/javascript">{{ .Content | safeJS }}</script>
+    {{ end }}
   </body>
-  <script src="{{ "js/jquery-3.5.1.slim.min.js" | relURL }}"></script>
-  {{ with resources.Get "js/index.js" | minify }}
-  <script type="text/javascript">{{ .Content | safeJS }}</script>
-  {{ end }}
 </html>
