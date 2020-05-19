@@ -60,6 +60,15 @@ nav {
   100% { transform: rotate(360deg); }
 }
 
+.subscribe-form {
+  margin-top: 10px;
+  // margin-bottom: 20px;
+  input, button {
+    margin-bottom: 17px;
+    margin-top: 10px;
+  }
+}
+
 
 .alert {
   border-radius: $border-radius;

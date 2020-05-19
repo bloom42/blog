@@ -9,12 +9,6 @@ date = 2019-02-05T01:42:42+02:00
 
 I’ll write you once a week about open source, sustainability and avoiding complexity. <br />
 
-<small>
-I hate spam even more than you do.
-I'll never share your email and you can unsubscribe at anytime. Also there is no tracking or ads.
-</small>
-
-<br />
 
 <noscript>
   <strong>We're sorry but Fatal Entropy doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -29,6 +23,11 @@ I'll never share your email and you can unsubscribe at anytime. Also there is no
   </div>
 </form>
 
+
+<small>
+I hate spam even more than you do.
+I'll never share your email and you can unsubscribe at anytime. Also there is no tracking or ads.
+</small>
 
 <br />
 
