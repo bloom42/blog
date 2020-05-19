@@ -15,11 +15,11 @@
     </footer>
 
     {{/* <!-- <script src="{{ "js/cash-0.7.1.min.js" | relURL }}"></script> --> */}}
-    {{ with resources.Get "js/cash-0.7.1.min.js" | minify }}
-    <script type="text/javascript">{{ .Content | safeJS }}</script>
-    {{ end }}
-    {{ with resources.Get "js/index.js" | minify }}
-    <script type="text/javascript">{{ .Content | safeJS }}</script>
-    {{ end }}
+    {{ $cash := resources.Get "js/cash-0.7.1.min.js" | minify }}
+    {{ $myjs := resources.Get "js/index.js" | minify }}
+    <script type="text/javascript">
+    {{ $cash.Content | safeJS }}
+    {{ $myjs.Content | safeJS}}
+    </script>
   </body>
 </html>
