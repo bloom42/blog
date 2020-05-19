@@ -108,6 +108,8 @@ nav {
 
 
 main {
+  max-width: 100%;
+
   a, a:visited {
     color: $links-color;
     &:hover {
