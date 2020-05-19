@@ -69,7 +69,13 @@ function graphqlReq(query, variables) {
     method : 'POST',
   };
   return fetch(window.apiBaseUrl+'/graphql', data)
-    .then(function(res) { return res.json() });
+    .then(function(res) {
+      if (res.status !== 200) {
+        throw new Error();
+      }
+
+      return res.json()
+    });
 }
 
 function subscribeToNewsletter(email) {
