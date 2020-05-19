@@ -67,6 +67,12 @@ nav {
     margin-bottom: 17px;
     margin-top: 10px;
   }
+
+  @media (max-width: 600px) {
+    input {
+      margin-bottom: 8px;
+    }
+  }
 }
 
 
