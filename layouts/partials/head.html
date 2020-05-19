@@ -45,8 +45,11 @@
 
 
   <!-- CSS -->
-  {{ $style := resources.Get "sass/style.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+  <style>
+  {{ with resources.Get "sass/style.scss" | toCSS | minify }}
+    {{ .Content | safeCSS }}
+  {{ end }}
+  </style>
 
   <!-- TITLE -->
   {{ if .IsHome -}}

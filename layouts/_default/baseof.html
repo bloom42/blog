@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.Language }}">
   {{ partial "head.html" . }}
-  <script type="text/javascript">
-    window.obfuscatedEmail = {{ .Site.Params.ObfuscatedEmail | safeHTML }};
-  </script>
-
   <body>
     <header>
       {{ partial "nav.html" . }}
