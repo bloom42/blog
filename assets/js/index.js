@@ -166,7 +166,7 @@ $(document).ready(function() {
 
   // subscribe
   if ($("#fe-subscribe-button-input").length) {
-    $("#fe-subscribe-button-input").click(function(e) {
+    $("#fe-subscribe-button-input").on('click', function(e) {
       e.preventDefault();
       subscribeToNewsletter($('#fe-subscribe-email-input').val());
     });
@@ -208,7 +208,7 @@ $(document).ready(function() {
 
 
   if ($("#osw-unsubscribe-btn").length) {
-    $("#osw-unsubscribe-btn").click(function(e) {
+    $("#osw-unsubscribe-btn").on('click', function(e) {
       e.preventDefault();
       unsubscribe();
     });
