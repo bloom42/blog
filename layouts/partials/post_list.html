@@ -4,14 +4,12 @@
 
   <h2 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 
-  <p class="entry-meta">
-    <span classn="entry-author"><a href="https://kerkour.fr">{{ index .Params.authors 0 }}</a></span>
+  <p class="post-meta">
+    <span><a href="https://kerkour.fr">{{ index .Params.authors 0 }}</a></span>
     /
-    <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }} class="entry-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
   </p>
-  <h3 class="entry-subtitle">
-    {{ .Params.subtitle }}
-  </h3>
+  <h3></h3>
   <div class="left">
     {{ with .Description }}
       {{ . }}

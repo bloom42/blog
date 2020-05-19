@@ -29,11 +29,11 @@ nav {
   text-align: left;
 }
 
-.post-meta, .entry-meta {
+.post-meta {
   margin: 0;
   text-align: center;
   color: #8a8a8a;
-  font-size: 20px;
+  font-size: $font-size-base + 1px;
 }
 
 .read-more {
