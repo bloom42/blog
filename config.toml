@@ -19,10 +19,6 @@ enableGitInfo = true
 
 [params]
   description = "Strong opinions and crazy ideas on open source, minimalism, sustainability and everything in between. By Sylvain Kerkour, creator of Bloom."
-  descriptionHtml = """
-    Strong opinions and crazy ideas on open source, minimalism, sustainability and everything in between. By Sylvain Kerkour, creator of
-      <a href="https://www.bloom.sh">Bloom</a>
-    """
   git = "https://gitlab.com/bloom42/blog"
   obfuscatedEmail = '<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>'
   # uryyb@sngnyragebcl.pbz
