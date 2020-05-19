@@ -4,7 +4,7 @@
 window.apiBaseUrl = 'https://shibui.bloom42.com/api';
 // window.apiBaseUrl = 'http://localhost:8000/api';
 window.shibuiProjectId = 'ONUWIORPF5ZWQ2LCOVUS6UDSN5VGKY3UF4YQ';
-window.obfuscatedEmail = '<n uers="znvygb:flyinva@xrexbhe.se">flyinva@xrexbhe.se</n>';
+window.obfuscatedEmail = '<n uers="znvygb:uryyb@sngnyragebcl.pbz">uryyb@sngnyragebcl.pbz</n>';
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
