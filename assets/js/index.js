@@ -61,11 +61,15 @@ function graphqlReq(query, variables) {
     variables: variables,
   };
   var data = {
-    data : JSON.stringify(payload),
-    contentType : 'application/json',
-    type : 'POST',
+    body : JSON.stringify(payload),
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    method : 'POST',
   };
-  return $.ajax(window.apiBaseUrl+'/graphql', data);
+  return fetch(window.apiBaseUrl+'/graphql', data)
+    .then(function(res) { return res.json() });
 }
 
 function subscribeToNewsletter(email) {
@@ -80,17 +84,17 @@ function subscribeToNewsletter(email) {
     },
   };
   graphqlReq(query, variables)
-  .done(function(data) {
+  .then(function(data) {
     if (data.errors && data.errors.length > 0) {
       displayError(data.errors[0].message);
       return ;
     }
     window.location.href = '/confirm';
   })
-  .fail(function() {
+  .catch(function() {
     displayError('Error subscribing. Please try again.');
   })
-  .always(function() {
+  .finally(function() {
     hideLoader();
   })
 }
@@ -114,17 +118,17 @@ function unsubscribe() {
     },
   };
   graphqlReq(query, variables)
-  .done(function(data) {
+  .then(function(data) {
     if (data.errors && data.errors.length > 0) {
        displayError(data.errors[0].message);
        return ;
     }
     displaySuccess('You no longer will receive our emails. Have a good day!');
   })
-  .fail(function() {
+  .catch(function() {
     displayError('Error unsuscribing. Please click again on the link provided in the email.');
   })
-  .always(function() {
+  .finally(function() {
     hideLoader();
   })
 }
@@ -181,17 +185,17 @@ $(document).ready(function() {
       },
     };
     graphqlReq(query, variables)
-    .done(function(data) {
+    .then(function(data) {
       if (data.errors && data.errors.length > 0) {
          displayError(data.errors[0].message);
          return ;
       }
       displaySuccess('You are now subscribed to <b>Open Source Weekly</b>');
     })
-    .fail(function() {
+    .catch(function() {
       displayError('Error confirming your subscription. Please click again on the link provided in the email.');
     })
-    .always(function() {
+    .finally(function() {
       hideLoader();
     })
   }
