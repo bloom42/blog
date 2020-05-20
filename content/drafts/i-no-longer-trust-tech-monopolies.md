@@ -35,6 +35,8 @@ I don't trust them with my work: too many stories of people blocked out of their
 recover it. Some had chances to be make noise on social netwoeks and be able to reach someone at big corp.
 Some just lost their business
 
+apple qui prend 30% et qui empeche la distribution des autres apps.
+
 Don't trust for my future:
 Ces entreprises sont trop grande. La responsabilite et le leadership est trop diffus.
 
