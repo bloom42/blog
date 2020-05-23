@@ -50,6 +50,7 @@ Follow
 <a href="https://twitter.com/@42Bloom" target="_blank" rel="noopener">@42Bloom</a> on Twitter to never miss an issue.
 
 <br />
+
 ## License
 
 All the content on this website is licensed under the
