@@ -10,11 +10,15 @@ We believe that entropy (which can be defined as a measurement of chaos, complex
 As product designers, developers, entrepreneurs, managers... it's our role to manage complexity.
 We share on this blog our ideas and experience on how we tackle entropy and keep things simple. -->
 
-Equilibrium is death and too much entropy (chaos) is fatal.
+<!-- Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example. Anyway -->
+
+It's far easier to add entropy (chaos) to our lives ranther than removing it.
+However, it's removing entropy that brings the more happiness and value.
+
+<!-- Equilibrium is death and too much entropy (chaos) is fatal. -->
 
 In this blog we explore how complexity and chaos infiltrate systems, organizations and organisms and lead to a slow and painful demise.
 
-<!-- Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example. Anyway -->
 
 Entropy is an important part of our lives and if you don't control it, it will control you.
 
