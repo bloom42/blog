@@ -13,7 +13,7 @@ We share on this blog our ideas and experience on how we tackle entropy and keep
 <!-- Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example. Anyway -->
 
 It's far easier to add entropy (chaos) to our lives ranther than removing it.
-However, it's reducing entropy that brings the more happiness and value.
+However, it's reducing entropy (decluttering) that brings the more happiness and value.
 
 <!-- Equilibrium is death and too much entropy (chaos) is fatal. -->
 
