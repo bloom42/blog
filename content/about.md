@@ -22,7 +22,7 @@ In this blog we explore how complexity and chaos infiltrate systems, organizatio
 
 Entropy is an important part of our lives and if you don't control it, it will control you.
 
-<br />
+
 
 
 ## Author
@@ -33,36 +33,35 @@ This blog is lovingly authored by
 Bloom: An open source and encrypted productivity app (Files, Calendar, Contacts...)</a>.<br />
 His mission is to empower people with open technologies ✌️
 
-<br />
+
 
 ## Contact
 
 Fell free to contact me by email: <span class="obfuscated-email">Javascript is required to access email address</span>
 
-<br />
+
 
 ## Mastodon
 
 Follow
 <a href="https://mastodon.social/@42bloom" target="_blank" rel="noopener">@42bloom@mastodon.social</a> on the Fediverse to never miss an issue.
 
-<br />
+
 
 ## Twitter
 
 Follow
 <a href="https://twitter.com/@42Bloom" target="_blank" rel="noopener">@42Bloom</a> on Twitter to never miss an issue.
 
-<br />
+
 
 ## License
 
 All the content on this website is licensed under the
 [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-<br />
 
-## Source code
+## Open source
 
 The source code of this website is available on GitLab:
 [{{< giturl >}}]({{< giturl >}})
