@@ -67,14 +67,14 @@ button {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   font-family: $font-family-sans-serif;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #5772ff;
+  border-color: #5772ff;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #3959ff;
+  border-color: #3959ff;
   text-decoration: none;
 }
 
