@@ -17,6 +17,9 @@ site -> download
 gitlab
 twitter
 
+If you believe in our mission, please consider subscribing, even if not everything is perfect.
+We really need funds to sustain the development.
+
 
 # Table of content
 
