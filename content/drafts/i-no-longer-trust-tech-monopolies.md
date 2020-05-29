@@ -10,6 +10,12 @@ draft = true
 lang = "en"
 +++
 
+<!--
+
+HN / Reddit: be cool and constructive, I won't tolerate trolls
+
+ -->
+
 **TL;DR:**
 Ce qu'est Bloom, et pq je l'ai construit
 
