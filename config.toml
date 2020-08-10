@@ -1,4 +1,4 @@
-baseURL = "https://fatalentropy.com"
+baseURL = "https://www.fatalentropy.com"
 languageCode = "en-us"
 title = "Fatal Entropy"
 disableHugoGeneratorInject = true
