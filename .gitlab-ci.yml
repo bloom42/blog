@@ -20,7 +20,7 @@ build:
     paths:
     - public
 
-deploy:
+netlify:
   stage: deploy
   image: $NODE_IMAGE
   script:
