@@ -5,11 +5,11 @@
 
 
 ####################################################################################################
-### fatalentropy.com
+### www.fatalentropy.com
 ####################################################################################################
 
 [[redirects]]
-  from = "https://www.fatalentropy.com/*"
-  to = "https://fatalentropy.com/:splat"
+  from = "https://fatalentropy.com/*"
+  to = "https://www.fatalentropy.com/:splat"
   status = 301
   force = true
