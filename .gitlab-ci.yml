@@ -16,14 +16,13 @@ build:
     - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
     - dpkg -i hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
     - make build
-    - make gzip
   artifacts:
     paths:
     - public
 
 deploy:
-  image: $NODE_IMAGE
   stage: deploy
+  image: $NODE_IMAGE
   script:
     - npm i -g netlify-cli
     - netlify --telemetry-disable
@@ -32,15 +31,13 @@ deploy:
     - master
 
 
-# pages:
-#   image: $GO_IMAGE
-#   only:
-#     - master
-#   script:
-#     - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
-#     - dpkg -i hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
-#     - make build
-#     - make gzip
-#   artifacts:
-#     paths:
-#     - public
+pages:
+  stage: deploy
+  image: $GO_IMAGE
+  only:
+    - master
+  script:
+    - make gzip
+  artifacts:
+    paths:
+    - public
