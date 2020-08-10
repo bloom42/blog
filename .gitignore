@@ -57,3 +57,4 @@ node_modules/
 public/
 /themes/
 resources/_gen/
+.netlify

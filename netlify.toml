@@ -1,0 +1,4 @@
+[Settings]
+
+[build]
+  publish = "public/"
