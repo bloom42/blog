@@ -22,7 +22,7 @@ build:
     - public
 
 deploy:
-  image: $GO_IMAGE
+  image: $NODE_IMAGE
   stage: deploy
   script:
     - npm i -g netlify-cli
