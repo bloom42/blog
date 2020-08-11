@@ -13,3 +13,8 @@
   to = "https://www.fatalentropy.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/:splat"
+  status = 301
