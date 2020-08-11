@@ -30,6 +30,13 @@ netlify:
   only:
     - master
 
+render:
+  stage: deploy
+  image: $NODE_IMAGE
+  script:
+    - curl ${RENDER_DEPLOY_WEBHOOK}?key=${RENDER_DEPLOY_KEY}
+  only:
+    - master
 
 pages:
   stage: deploy
