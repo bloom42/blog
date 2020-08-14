@@ -3,6 +3,14 @@
 [build]
   publish = "public/"
 
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=3600
+    '''
+
 
 ####################################################################################################
 ### www.fatalentropy.com
