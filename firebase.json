@@ -22,6 +22,11 @@
         "source": "/blog/:post*",
         "destination": "/:post",
         "type": 301
+      },
+      {
+        "source": "/index.xml",
+        "destination": "/feed.xml",
+        "type": 301
       }
     ],
     "headers": [
