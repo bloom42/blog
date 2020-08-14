@@ -8,6 +8,13 @@
 ### www.fatalentropy.com
 ####################################################################################################
 
+# [[redirects]]
+#   from = "https://bloom42-blog.netlify.app/*"
+#   to = "https://www.fatalentropy.com/:splat"
+#   status = 301
+#   force = true
+
+
 [[redirects]]
   from = "https://fatalentropy.com/*"
   to = "https://www.fatalentropy.com/:splat"
