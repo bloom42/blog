@@ -14,8 +14,8 @@
     ],
     "redirects": [
       {
-        "source": "https://fatalentropy.com/:path*",
-        "destination": "https://www.fatalentropy.com/:path",
+        "source": "https://www.fatalentropy.com/:path*",
+        "destination": "https://fatalentropy.com/:path",
         "type": 301
       },
       {
