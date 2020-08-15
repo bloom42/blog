@@ -4,6 +4,7 @@
   "home_page_url": "{{ .Permalink }}",
   "feed_url": "{{ .Permalink }}feed.json",
   "description": "{{ .Site.Params.Description }}",
+  "language": "en",
   "author": {
     "contact": "{{ .Site.Author.email }}",
     "name": "{{ .Site.Author.name }}"
