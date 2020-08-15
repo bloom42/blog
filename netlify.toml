@@ -34,3 +34,8 @@
   from = "/blog/*"
   to = "/:splat"
   status = 301
+
+[[redirects]]
+  from = "/index.xml"
+  to = "/feed.xml"
+  status = 301
