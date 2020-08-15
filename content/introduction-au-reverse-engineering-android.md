@@ -59,9 +59,9 @@ du jeu. On va aussi modifier les permissions de l’application car celles deman
 de base semblent un peu trop intrusives.
 
 <p>
-<img src="permissions_original.jpg" width="240" height="400" style="display: inline-block;"/>
-  <img src="menu_pubs.jpg" width="240" height="400" style="display: inline-block;"/>
-  <img src="game_pubs.jpg" width="240" height="400" style="display: inline-block;"/>
+<img src="/introduction-au-reverse-engineering-android/permissions_original.jpg" width="240" height="400" style="display: inline-block;"/>
+  <img src="/introduction-au-reverse-engineering-android/menu_pubs.jpg" width="240" height="400" style="display: inline-block;"/>
+  <img src="/introduction-au-reverse-engineering-android/game_pubs.jpg" width="240" height="400" style="display: inline-block;"/>
 </p>
 
 Il existe principalement 2 méthodes pour étudier des applications Android :
@@ -242,9 +242,9 @@ inutiles( attention tout de même sur ce point, cela peut mener à des crashs si
   cela est mal fait).
 
 <p>
-  <img src="permissions_mod.jpg" width="240" height="400" style="display: inline-block;"/>
-  <img src="menu_mod.jpg" width="240" height="400" style="display: inline-block;"/>
-  <img src="game_mod.jpg" width="240" height="400" style="display: inline-block;"/>
+  <img src="/introduction-au-reverse-engineering-android/permissions_mod.jpg" width="240" height="400" style="display: inline-block;"/>
+  <img src="/introduction-au-reverse-engineering-android/menu_mod.jpg" width="240" height="400" style="display: inline-block;"/>
+  <img src="/introduction-au-reverse-engineering-android/game_mod.jpg" width="240" height="400" style="display: inline-block;"/>
 </p>
 
 
