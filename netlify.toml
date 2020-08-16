@@ -7,10 +7,12 @@
   for = "/*"
   [headers.values]
     cache-control = '''
+    public,
     max-age=0,
     no-cache,
-    no-store,
-    must-revalidate'''
+    must-revalidate,
+    s-maxage=31536000
+    '''
 
 [[headers]]
   for = "/*.js"

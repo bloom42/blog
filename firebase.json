@@ -37,7 +37,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "public, max-age=0, no-store, must-revalidate, s-maxage=31536000"
+            "value": "public, max-age=0, no-cache, must-revalidate, s-maxage=31536000"
           }
         ]
       },
