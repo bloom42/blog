@@ -6,23 +6,24 @@
 
 [[headers]]
   for = "/*.js"
+  # 2592000 seconds = 30 days
   [headers.values]
     cache-control = '''
     public,
     max-age=3600,
-    s-maxage=31536000
+    s-maxage=2592000
     '''
 
-# [[headers]]
-#   for = "/*"
-#   [headers.values]
-#     # Netlify's CDN, unfortunately respects no-cache
-#     # must-revalidate,
-#     cache-control = '''
-#     public,
-#     max-age=0,
-#     s-maxage=31536000
-#     '''
+ [[headers]]
+   for = "/*"
+   [headers.values]
+     # Netlify's CDN, unfortunately respects no-cache
+     # must-revalidate,
+     cache-control = '''
+     public,
+     max-age=0,
+     s-maxage=2592000
+     '''
 
 
 ####################################################################################################
