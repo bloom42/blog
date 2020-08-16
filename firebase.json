@@ -30,6 +30,16 @@
       }
     ],
     "headers": [
+      // for HTML page, we ask to keep them long term in CDN, but not in browser cache
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=172800"
+          }
+        ]
+      },
       {
         "source": "**/*.@(eot|otf|ttf|ttc|woff|css|js|png|jpg|jpeg|gif|tiff)",
         "headers": [
