@@ -10,17 +10,17 @@
 # 259200 s = 3d
 # 172800 s = 2d
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    # Netlify's CDN, unfortunately respects no-cache
-    # must-revalidate,
-    Cache-Control = '''
-    public,
-    max-age=0,
-    must-revalidate,
-    s-maxage=172800
-    '''
+#[[headers]]
+#  for = "/*"
+#  [headers.values]
+#    # Netlify's CDN, unfortunately respects no-cache
+#    # must-revalidate,
+#    Cache-Control = '''
+#    public,
+#    max-age=0,
+#    must-revalidate,
+#    s-maxage=172800
+#    '''
 
 
 [[headers]]
