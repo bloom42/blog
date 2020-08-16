@@ -7,10 +7,10 @@
   for = "/*"
   [headers.values]
     # Netlify's CDN, unfortunately respects no-cache
+    # must-revalidate,
     cache-control = '''
     public,
     max-age=0,
-    must-revalidate,
     s-maxage=31536000
     '''
 
