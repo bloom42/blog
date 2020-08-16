@@ -17,7 +17,6 @@
   [headers.values]
     cache-control = '''
     public,
-    must-revalidate,
     max-age=3600,
     s-maxage=31536000
     '''
