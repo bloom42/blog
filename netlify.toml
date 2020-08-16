@@ -4,12 +4,22 @@
   publish = "public/"
 
 [[headers]]
+  for = "/*"
+  [headers.values]
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+
+[[headers]]
   for = "/*.js"
   [headers.values]
     cache-control = '''
     public,
+    must-revalidate,
     max-age=3600,
-    s-maxage=172800
+    s-maxage=31536000
     '''
 
 
