@@ -12,10 +12,10 @@
   # 259200 s = 3d
   # 172800 s = 2d
   [headers.values]
-    cache-control = '''
+    Cache-Control = '''
     public,
     max-age=3600,
-    s-maxage=604800
+    s-maxage=259200
     '''
 
 # [[headers]]
@@ -23,7 +23,7 @@
 #    [headers.values]
 #      # Netlify's CDN, unfortunately respects no-cache
 #      # must-revalidate,
-#      cache-control = '''
+#      Cache-Control = '''
 #      public,
 #      max-age=0,
 #      s-maxage=1296000
