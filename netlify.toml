@@ -13,16 +13,16 @@
     s-maxage=31536000
     '''
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    # Netlify's CDN, unfortunately respects no-cache
-    # must-revalidate,
-    cache-control = '''
-    public,
-    max-age=0,
-    s-maxage=31536000
-    '''
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     # Netlify's CDN, unfortunately respects no-cache
+#     # must-revalidate,
+#     cache-control = '''
+#     public,
+#     max-age=0,
+#     s-maxage=31536000
+#     '''
 
 
 ####################################################################################################
