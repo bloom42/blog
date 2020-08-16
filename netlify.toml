@@ -4,15 +4,15 @@
   publish = "public/"
 
 
+# 2592000 seconds = 30 days
+# 1296000 s = 15 d
+# 604800 s = 7 d
+# 259200 s = 3d
+# 172800 s = 2d
 [[headers]]
   for = "/*.js"
-  # 2592000 seconds = 30 days
-  # 1296000 s = 15 d
-  # 604800 s = 7 d
-  # 259200 s = 3d
-  # 172800 s = 2d
   [headers.values]
-    Cache-Control = '''
+    cache-control = '''
     public,
     max-age=3600,
     s-maxage=172800
