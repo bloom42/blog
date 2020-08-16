@@ -3,6 +3,16 @@
 [build]
   publish = "public/"
 
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=3600,
+    s-maxage=31536000
+    '''
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -11,15 +21,6 @@
     cache-control = '''
     public,
     max-age=0,
-    s-maxage=31536000
-    '''
-
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    cache-control = '''
-    public,
-    max-age=3600,
     s-maxage=31536000
     '''
 
