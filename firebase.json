@@ -34,7 +34,7 @@
       // 31536000 s = 1 year
       // firebase CDN ignore (thanksfully) Cahce-control no-cache?? (i'm not sure)
       {
-        "source": "**",
+        "source": "/**",
         "headers": [
           {
             "key": "Cache-Control",
