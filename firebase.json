@@ -34,6 +34,17 @@
       // 31536000 s = 1 year
       // firebase CDN ignore (thanksfully) Cahce-control no-cache?? (i'm not sure)
       {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            // "value": "public, max-age=0, no-cache, must-revalidate, s-maxage=31536000"
+            "value": "public, max-age=0, s-maxage=31536000"
+            // "value": "public, max-age=0, must-revalidate, s-maxage=31536000"
+          }
+        ]
+      },
+      {
         "source": "/**",
         "headers": [
           {
