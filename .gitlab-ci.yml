@@ -20,15 +20,15 @@ build:
     paths:
     - public
 
-netlify:
-  stage: deploy
-  image: $NODE_IMAGE
-  script:
-    - npm i -g netlify-cli
-    - netlify --telemetry-disable
-    - netlify deploy --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_AUTH_TOKEN} --prod
-  only:
-    - master
+# netlify:
+#   stage: deploy
+#   image: $NODE_IMAGE
+#   script:
+#     - npm i -g netlify-cli
+#     - netlify --telemetry-disable
+#     - netlify deploy --site ${NETLIFY_SITE_ID} --auth ${NETLIFY_AUTH_TOKEN} --prod
+#   only:
+#     - master
 
 # render:
 #   stage: deploy
