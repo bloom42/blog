@@ -58,3 +58,6 @@ public/
 /themes/
 resources/_gen/
 .netlify
+.serverless
+lambda.zip
+dist/
