@@ -43,6 +43,21 @@ var localFlag bool
 var portFlag string
 var chiMux *chi.Mux
 
+// Taken from https://github.com/mytrile/nocache
+var cacheHeaders = map[string]string{
+	"Cache-Control":   "public, max-age=0, s-maxage=31536000",
+	"X-Accel-Expires": "31536000",
+}
+
+// var etagHeaders = []string{
+// 	"ETag",
+// 	"If-Modified-Since",
+// 	"If-Match",
+// 	"If-None-Match",
+// 	"If-Range",
+// 	"If-Unmodified-Since",
+// }
+
 func init() {
 	flag.BoolVar(&localFlag, "local", false, "run local server")
 	flag.StringVar(&portFlag, "port", "3333", "port to listen to")
@@ -51,12 +66,34 @@ func init() {
 
 	chiMux = chi.NewRouter()
 	chiMux.Use(middleware.Logger)
+	chiMux.Use(CaheHeadersMiddleware)
 
 	workDir, _ := os.Getwd()
 	filesDir := http.Dir(filepath.Join(workDir, *dirFlag))
 	FileServer(chiMux, "/", filesDir)
 
 	httpLambda = lambdachi.New(chiMux)
+}
+
+func CaheHeadersMiddleware(h http.Handler) http.Handler {
+	fn := func(w http.ResponseWriter, r *http.Request) {
+
+		// // Delete any ETag headers that may have been set
+		// for _, v := range etagHeaders {
+		// 	if r.Header.Get(v) != "" {
+		// 		r.Header.Del(v)
+		// 	}
+		// }
+
+		// Set our NoCache headers
+		for k, v := range cacheHeaders {
+			w.Header().Set(k, v)
+		}
+
+		h.ServeHTTP(w, r)
+	}
+
+	return http.HandlerFunc(fn)
 }
 
 func Handler(ctx context.Context, req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {

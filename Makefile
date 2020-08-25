@@ -7,7 +7,7 @@ LAMBDA_ZIP = blog.zip
 all: build
 
 .PHONY: build
-build:
+build: clean
 	hugo
 	mkdir -p dist
 	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -o $(DIST_DIR)/$(SERVER_BIN) main.go
@@ -20,7 +20,7 @@ dev:
 
 .PHONY: server
 server:
-	hugo server
+	go run main.go -dir public -local
 
 
 .PHONY: clean
