@@ -39,7 +39,6 @@ import (
 
 var httpLambda *lambdachi.ChiLambda
 
-var localFlag bool
 var portFlag string
 var dirFlag string
 var chiMux *chi.Mux
@@ -50,9 +49,8 @@ var cacheHeaders = map[string]string{
 }
 
 func init() {
-	flag.BoolVar(&localFlag, "local", false, "run local server")
 	flag.StringVar(&portFlag, "port", "3333", "port to listen to")
-	flag.StringVar(&dirFlag, "dir", ".", "the directory to serve")
+	flag.StringVar(&dirFlag, "dir", "public", "the directory to serve")
 	flag.Parse()
 
 	chiMux = chi.NewRouter()
@@ -93,12 +91,21 @@ func Handler(ctx context.Context, req events.APIGatewayProxyRequest) (events.API
 	return httpLambda.ProxyWithContext(ctx, req)
 }
 
+// https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html
+func IsLambda() bool {
+	if os.Getenv("AWS_LAMBDA_FUNCTION_NAME") != "" {
+		return true
+	}
+	return false
+}
+
 func main() {
-	if localFlag {
+	if IsLambda() {
+		log.Println("Starting lambda")
+		lambda.Start(Handler)
+	} else {
 		log.Println("Starting server", fmt.Sprintf("port=%s", portFlag))
 		http.ListenAndServe(":"+portFlag, chiMux)
-	} else {
-		lambda.Start(Handler)
 	}
 }
 

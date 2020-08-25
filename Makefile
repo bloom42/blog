@@ -11,7 +11,7 @@ build: clean
 	hugo
 	mkdir -p dist
 	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -o $(DIST_DIR)/$(SERVER_BIN) main.go
-	cp -r $(PUBLIC_DIR)/* $(DIST_DIR)
+	cp -r $(PUBLIC_DIR) $(DIST_DIR)
 	cd $(DIST_DIR) && zip -r $(LAMBDA_ZIP) .
 
 .PHONY: dev
@@ -20,7 +20,7 @@ dev:
 
 .PHONY: server
 server:
-	go run main.go -dir public -local
+	go run main.go
 
 
 .PHONY: clean
