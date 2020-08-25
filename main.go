@@ -41,36 +41,28 @@ var httpLambda *lambdachi.ChiLambda
 
 var localFlag bool
 var portFlag string
+var dirFlag string
 var chiMux *chi.Mux
 
-// Taken from https://github.com/mytrile/nocache
 var cacheHeaders = map[string]string{
 	"Cache-Control":   "public, max-age=0, s-maxage=31536000",
 	"X-Accel-Expires": "31536000",
 }
 
-// var etagHeaders = []string{
-// 	"ETag",
-// 	"If-Modified-Since",
-// 	"If-Match",
-// 	"If-None-Match",
-// 	"If-Range",
-// 	"If-Unmodified-Since",
-// }
-
 func init() {
 	flag.BoolVar(&localFlag, "local", false, "run local server")
 	flag.StringVar(&portFlag, "port", "3333", "port to listen to")
-	dirFlag := flag.String("dir", ".", "the directory to serve")
+	flag.StringVar(&dirFlag, "dir", ".", "the directory to serve")
 	flag.Parse()
 
 	chiMux = chi.NewRouter()
 	chiMux.Use(middleware.Logger)
 	chiMux.Use(middleware.GetHead)
 	chiMux.Use(CaheHeadersMiddleware)
+	chiMux.NotFound(NotFoundHandler)
 
 	workDir, _ := os.Getwd()
-	filesDir := http.Dir(filepath.Join(workDir, *dirFlag))
+	filesDir := http.Dir(filepath.Join(workDir, dirFlag))
 	FileServer(chiMux, "/", filesDir)
 
 	httpLambda = lambdachi.New(chiMux)
@@ -78,15 +70,7 @@ func init() {
 
 func CaheHeadersMiddleware(h http.Handler) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
-
-		// // Delete any ETag headers that may have been set
-		// for _, v := range etagHeaders {
-		// 	if r.Header.Get(v) != "" {
-		// 		r.Header.Del(v)
-		// 	}
-		// }
-
-		// Set our NoCache headers
+		// Set our cache headers
 		for k, v := range cacheHeaders {
 			w.Header().Set(k, v)
 		}
@@ -95,6 +79,13 @@ func CaheHeadersMiddleware(h http.Handler) http.Handler {
 	}
 
 	return http.HandlerFunc(fn)
+}
+
+// HandlerNotFound simply returns an error indicating that the route does not exist
+func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
+	log.Println("Not found handler")
+	w.WriteHeader(http.StatusNotFound)
+	http.ServeFile(w, r, filepath.Join(dirFlag, "404.html"))
 }
 
 func Handler(ctx context.Context, req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
@@ -113,21 +104,26 @@ func main() {
 
 // FileServer conveniently sets up a http.FileServer handler to serve
 // static files from a http.FileSystem.
-func FileServer(r chi.Router, path string, root http.FileSystem) {
+func FileServer(router *chi.Mux, path string, root http.FileSystem) {
 	if strings.ContainsAny(path, "{}*") {
 		panic("FileServer does not permit any URL parameters.")
 	}
 
 	if path != "/" && path[len(path)-1] != '/' {
-		r.Get(path, http.RedirectHandler(path+"/", 301).ServeHTTP)
+		router.Get(path, http.RedirectHandler(path+"/", 301).ServeHTTP)
 		path += "/"
 	}
 	path += "*"
 
-	r.Get(path, func(w http.ResponseWriter, r *http.Request) {
+	router.Get(path, func(w http.ResponseWriter, r *http.Request) {
 		rctx := chi.RouteContext(r.Context())
 		pathPrefix := strings.TrimSuffix(rctx.RoutePattern(), "/*")
 		fs := http.StripPrefix(pathPrefix, http.FileServer(root))
-		fs.ServeHTTP(w, r)
+		if _, err := os.Stat(fmt.Sprintf("%s", root) + r.RequestURI); os.IsNotExist(err) {
+			router.NotFoundHandler().ServeHTTP(w, r)
+		} else {
+			fs.ServeHTTP(w, r)
+		}
+		// fs.ServeHTTP(w, r)
 	})
 }
