@@ -66,6 +66,7 @@ func init() {
 
 	chiMux = chi.NewRouter()
 	chiMux.Use(middleware.Logger)
+	chiMux.Use(middleware.GetHead)
 	chiMux.Use(CaheHeadersMiddleware)
 
 	workDir, _ := os.Getwd()
