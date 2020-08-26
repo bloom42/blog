@@ -69,13 +69,10 @@ func init() {
 
 func CaheHeadersMiddleware(h http.Handler) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
-		h.ServeHTTP(w, r)
-		if r.Response.StatusCode > 299 {
-			// Set our cache headers
-			for k, v := range cacheHeaders {
-				w.Header().Set(k, v)
-			}
+		for k, v := range cacheHeaders {
+			w.Header().Set(k, v)
 		}
+		h.ServeHTTP(w, r)
 	}
 
 	return http.HandlerFunc(fn)
