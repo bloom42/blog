@@ -1,23 +1,3 @@
-//
-// FileServer
-// ===========
-// This example demonstrates how to serve static files from your filesystem.
-//
-//
-// Boot the server:
-// ----------------
-// $ go run main.go
-//
-// Client requests:
-// ----------------
-// $ curl http://localhost:3333/files/
-// <pre>
-// <a href="notes.txt">notes.txt</a>
-// </pre>
-//
-// $ curl http://localhost:3333/files/notes.txt
-// Notessszzz
-//
 package main
 
 import (
@@ -80,9 +60,12 @@ func CaheHeadersMiddleware(h http.Handler) http.Handler {
 
 func RedirectMiddleware(next http.Handler) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
-		if strings.HasPrefix(r.URL.Path, "/blog") {
-			path := strings.TrimPrefix(r.URL.Path, "/blog")
-			http.Redirect(w, r, "https://fatalentropy.com"+path, http.StatusMovedPermanently)
+		path := strings.ToLower(r.URL.Path)
+		if strings.HasPrefix(path, "/blog") {
+			path = strings.TrimPrefix(r.URL.Path, "/blog")
+			http.Redirect(w, r, path, http.StatusMovedPermanently)
+		} else if path == "/index.xml" {
+			http.Redirect(w, r, "/feed.xml", http.StatusMovedPermanently)
 		} else {
 			next.ServeHTTP(w, r)
 		}
