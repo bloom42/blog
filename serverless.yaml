@@ -10,6 +10,7 @@ provider:
   versionFunctions: false
   httpApi:
     payload: '1.0'
+  logRetentionInDays: 14
 
 package:
   artifact: dist/blog.zip
