@@ -57,6 +57,7 @@ func init() {
 	chiMux.Use(middleware.Logger)
 	chiMux.Use(middleware.GetHead)
 	chiMux.Use(CaheHeadersMiddleware)
+	chiMux.Use(RedirectMiddleware)
 	chiMux.NotFound(NotFoundHandler)
 
 	workDir, _ := os.Getwd()
@@ -74,6 +75,20 @@ func CaheHeadersMiddleware(h http.Handler) http.Handler {
 		}
 
 		h.ServeHTTP(w, r)
+	}
+
+	return http.HandlerFunc(fn)
+}
+
+func RedirectMiddleware(next http.Handler) http.Handler {
+	fn := func(w http.ResponseWriter, r *http.Request) {
+		host := strings.Split(strings.ToLower(r.Host), ":")[0]
+		if host == "fatalentropy.com" || host == "localhost" || host == "127.0.0.1" {
+			next.ServeHTTP(w, r)
+		} else {
+			http.Redirect(w, r, "https://fatalentropy.com", http.StatusMovedPermanently)
+			return
+		}
 	}
 
 	return http.HandlerFunc(fn)
