@@ -94,7 +94,7 @@ func RedirectMiddleware(next http.Handler) http.Handler {
 
 // HandlerNotFound simply returns an error indicating that the route does not exist
 func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
-	log.Println("Not found handler")
+	log.Println("Not found: ", r.URL.Path)
 	w.WriteHeader(http.StatusNotFound)
 	http.ServeFile(w, r, filepath.Join(dirFlag, "404.html"))
 }
