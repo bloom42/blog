@@ -57,7 +57,7 @@ func init() {
 	chiMux.Use(middleware.Logger)
 	chiMux.Use(middleware.GetHead)
 	chiMux.Use(CaheHeadersMiddleware)
-	chiMux.Use(RedirectMiddleware)
+	// chiMux.Use(RedirectMiddleware)
 	chiMux.NotFound(NotFoundHandler)
 
 	workDir, _ := os.Getwd()
@@ -69,12 +69,13 @@ func init() {
 
 func CaheHeadersMiddleware(h http.Handler) http.Handler {
 	fn := func(w http.ResponseWriter, r *http.Request) {
-		// Set our cache headers
-		for k, v := range cacheHeaders {
-			w.Header().Set(k, v)
-		}
-
 		h.ServeHTTP(w, r)
+		if r.Response.StatusCode > 299 {
+			// Set our cache headers
+			for k, v := range cacheHeaders {
+				w.Header().Set(k, v)
+			}
+		}
 	}
 
 	return http.HandlerFunc(fn)
