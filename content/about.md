@@ -12,6 +12,8 @@ We share on this blog our ideas and experience on how we tackle entropy and keep
 
 <!-- Sometime, it's the lack of entropy that can be fatal: in cryptography or in lottery for example. Anyway -->
 
+The best way to survive is not to die.
+
 It's far easier to add entropy (chaos) to our lives rather than removing it.
 However, it's reducing entropy (decluttering) that brings the more happiness and value.
 
