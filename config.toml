@@ -19,7 +19,7 @@ enableGitInfo = true
 
 [params]
   description = "Strong opinions and crazy ideas on open source, minimalism, sustainability and everything in between. By Sylvain Kerkour, creator of Bloom."
-  git = "https://gitlab.com/bloom42/blog"
+  git = "https://github.com/bloom42/blog"
   ogimage = "https://www.fatalentropy.com/imgs/og_image.jpg"
 
 

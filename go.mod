@@ -1,4 +1,4 @@
-module gitlab.com/bloom42/blog
+module github.com/bloom42/blog
 
 go 1.15
 

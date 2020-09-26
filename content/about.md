@@ -65,5 +65,5 @@ All the content on this website is licensed under the
 
 ## Open source
 
-The source code of this website is available on GitLab:
+The source code of this website is available on GitHub:
 [{{< giturl >}}]({{< giturl >}})
