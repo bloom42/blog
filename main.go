@@ -99,6 +99,10 @@ func main() {
 		log.Println("Starting lambda")
 		lambda.Start(Handler)
 	} else {
+		portEnv := os.Getenv("PORT")
+		if portEnv != "" {
+			portFlag = portEnv
+		}
 		log.Println("Starting server", fmt.Sprintf("port=%s", portFlag))
 		http.ListenAndServe(":"+portFlag, chiMux)
 	}
