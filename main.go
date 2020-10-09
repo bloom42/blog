@@ -24,7 +24,7 @@ var dirFlag string
 var chiMux *chi.Mux
 
 var cacheHeaders = map[string]string{
-	"Cache-Control":   "public, max-age=0, s-maxage=31536000",
+	"Cache-Control":   "public, max-age=0, s-maxage=31536000, must-revalidate",
 	"X-Accel-Expires": "31536000",
 }
 
