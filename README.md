@@ -1,1 +1,1 @@
-# Moved to https://github.com/skerkour/kerkour.fr
+# Moved to https://github.com/skerkour/kerkour.com
